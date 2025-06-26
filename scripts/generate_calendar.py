@@ -32,7 +32,6 @@ FROM = (TODAY - timedelta(days=LOOKBEHIND_DAYS)).isoformat()
 TO   = (TODAY + timedelta(days=LOOKAHEAD_DAYS)).isoformat()
 TZ_NY = tz.gettz("America/New_York")
 
-
 # ────────────────────────────────────────────────────────────────────────────────
 # Helpers
 def fmt_number(num):
