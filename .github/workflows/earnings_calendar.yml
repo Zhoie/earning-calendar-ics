@@ -1,0 +1,40 @@
+name: Update Earnings Calendar
+
+on:
+  schedule:            # 每天 02:00 和 14:00 UTC（即北京时间 10:00 / 22:00）
+    - cron:  '0 2 * * *'
+    - cron:  '0 14 * * *'
+  workflow_dispatch:   # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🔧 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+
+      - name: 📦 Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: 🚀 Generate ICS
+        env:
+          FINNHUB_TOKEN: ${{ secrets.FINNHUB_TOKEN }}
+        run: |
+          python scripts/generate_calendar.py
+
+      - name: 📤 Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ `git status --porcelain` ]]; then
+            git add earnings_calendar.ics
+            git commit -m "chore: refresh earnings calendar [skip ci]"
+            git push
+          fi
