@@ -23,13 +23,15 @@ from ics import Calendar, Event
 # ────────────────────────────────────────────────────────────────────────────────
 # Config
 API = "https://finnhub.io/api/v1/calendar/earnings"
-TOKEN = os.getenv("FINNHUB_TOKEN")           # raises below if None
-LOOKAHEAD_DAYS = 30                          # free plan limit
+TOKEN = os.getenv("FINNHUB_TOKEN")
+LOOKBEHIND_DAYS = 15                          # past earnings window
+LOOKAHEAD_DAYS  = 15                          # upcoming earnings window
 
 TODAY = date.today()
-FROM = TODAY.isoformat()
-TO = (TODAY + timedelta(days=LOOKAHEAD_DAYS)).isoformat()
-TZ_NY = tz.gettz("America/New_York")         # Finnhub dates are in ET
+FROM = (TODAY - timedelta(days=LOOKBEHIND_DAYS)).isoformat()
+TO   = (TODAY + timedelta(days=LOOKAHEAD_DAYS)).isoformat()
+TZ_NY = tz.gettz("America/New_York")
+
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Helpers
