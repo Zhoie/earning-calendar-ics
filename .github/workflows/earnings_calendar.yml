@@ -1,13 +1,14 @@
 name: Update Earnings Calendar
 
 permissions:
-  contents: write        # 给 GITHUB_TOKEN 写权限
+  contents: write  # allow GITHUB_TOKEN to commit & push
 
 on:
-  schedule:            # 每天 02:00 和 14:00 UTC（即北京时间 10:00 / 22:00）
-    - cron:  '0 2 * * *'
-    - cron:  '0 14 * * *'
-  workflow_dispatch:   # 允许手动触发
+  schedule:
+    - cron: '0 2 * * *'   # 10:00 Beijing Time
+    - cron: '0 14 * * *'  # 22:00 Beijing Time
+  workflow_dispatch:      # allow manual trigger
+
 
 jobs:
   build:

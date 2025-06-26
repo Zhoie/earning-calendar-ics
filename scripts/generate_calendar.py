@@ -1,53 +1,104 @@
 #!/usr/bin/env python3
-import os, sys, json
+"""
+Generate an earnings-calendar ICS file using Finnhub API.
+
+1. Fetch earnings for the coming 30 days (free-tier limit).
+2. Convert each record to an all-day iCalendar event.
+3. Abbreviate long revenue numbers (e.g. 12 345 678 901 → '12.35 B').
+4. Write/overwrite earnings_calendar.ics in repository root.
+
+Prerequisites:
+  • FINNHUB_TOKEN must be provided as env var.
+  • pip install -r requirements.txt
+"""
+
+import os
+import sys
 from datetime import date, timedelta, datetime
-from dateutil import tz
+
 import requests
+from dateutil import tz
 from ics import Calendar, Event
 
+# ────────────────────────────────────────────────────────────────────────────────
+# Config
 API = "https://finnhub.io/api/v1/calendar/earnings"
-TOKEN = os.environ["FINNHUB_TOKEN"]
+TOKEN = os.getenv("FINNHUB_TOKEN")           # raises below if None
+LOOKAHEAD_DAYS = 30                          # free plan limit
 
 TODAY = date.today()
-FROM  = TODAY.isoformat()
-TO    = (TODAY + timedelta(days=30)).isoformat()  # 免费版最大区间 1 个月
+FROM = TODAY.isoformat()
+TO = (TODAY + timedelta(days=LOOKAHEAD_DAYS)).isoformat()
+TZ_NY = tz.gettz("America/New_York")         # Finnhub dates are in ET
 
-def fetch_earnings():
+# ────────────────────────────────────────────────────────────────────────────────
+# Helpers
+def fmt_number(num):
+    """
+    Abbreviate big numbers with B/M.
+    e.g. 1_234_567_890 -> '1.23 B', 456_000_000 -> '456 M'
+    Returns '-' if value is None/invalid/zero.
+    """
+    if num in (None, 0, "0"):
+        return "-"
+    try:
+        n = float(num)
+    except (ValueError, TypeError):
+        return "-"
+    if n >= 1_000_000_000:
+        return f"{n / 1_000_000_000:.2f}\u202fB"   # narrow-space
+    if n >= 1_000_000:
+        return f"{n / 1_000_000:.0f}\u202fM"
+    return f"{n:.0f}"
+
+
+def fetch_earnings() -> list[dict]:
+    """Call Finnhub and return raw earnings list."""
+    if not TOKEN:
+        raise RuntimeError("FINNHUB_TOKEN env-var is missing.")
     params = {"from": FROM, "to": TO, "token": TOKEN}
-    r = requests.get(API, params=params, timeout=30)
-    r.raise_for_status()
-    return r.json().get("earningsCalendar", [])
+    resp = requests.get(API, params=params, timeout=30)
+    resp.raise_for_status()
+    return resp.json().get("earningsCalendar", [])
 
-def to_event(item):
+
+def to_event(item: dict) -> Event:
+    """Convert one Finnhub record to an ics Event."""
     ev = Event()
-    # 统一用美国东部时间（FINNHub 返回也是 ET）
-    event_date = datetime.fromisoformat(item["date"]).date()
-    ev.name  = f"{item['symbol']}  Earnings"
-    ev.begin = datetime.combine(event_date, datetime.min.time(), tz.gettz("America/New_York"))
-    ev.make_all_day()             # 财报日直接用全天事件
-    # 在描述里放 EPS / Revenue 预估 vs 实际
-    lines   = [
+    ev.name = f"{item['symbol']} Earnings"
+    ev.begin = datetime.combine(
+        datetime.fromisoformat(item["date"]).date(),
+        datetime.min.time(),
+        TZ_NY,
+    )
+    ev.make_all_day()
+
+    lines = [
         f"Ticker: {item['symbol']}",
         f"Fiscal Qtr: {item.get('quarter', '-')}",
         f"Estimate EPS: {item.get('epsEstimate', '-')}",
-        f"Est. Revenue: {item.get('revenueEstimate', '-')}",
-        "Source: Finnhub (non-GAAP)"
+        f"Est. Revenue: {fmt_number(item.get('revenueEstimate'))}",
+        "Source: Finnhub (non-GAAP)",
     ]
     ev.description = "\n".join(lines)
     return ev
 
-def main():
+
+# ────────────────────────────────────────────────────────────────────────────────
+def main() -> None:
     cal = Calendar()
-    for raw in fetch_earnings():
-        cal.events.add(to_event(raw))
-    out = "earnings_calendar.ics"
-    with open(out, "w", encoding="utf-8") as f:
+    for rec in fetch_earnings():
+        cal.events.add(to_event(rec))
+
+    out_path = "earnings_calendar.ics"
+    with open(out_path, "w", encoding="utf-8") as f:
         f.writelines(cal)
-    print(f"✅  Calendar refreshed → {out}")
+    print(f"✅  Calendar refreshed → {out_path}")
+
 
 if __name__ == "__main__":
     try:
         main()
-    except Exception as e:
-        print("💥  Script failed:", e)
+    except Exception as exc:
+        print("💥  Script failed:", exc)
         sys.exit(1)
