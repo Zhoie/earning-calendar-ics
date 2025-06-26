@@ -1,3 +1,3 @@
 requests==2.32.3
 python-dateutil==2.9.0
-ics==0.7.2          # 轻量 iCalendar 库 :contentReference[oaicite:0]{index=0}
+ics==0.7.2          
