@@ -17,6 +17,8 @@ import sys
 from datetime import date, timedelta, datetime
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from dateutil import tz
 from ics import Calendar, Event
 
@@ -31,6 +33,17 @@ TODAY = date.today()
 FROM = (TODAY - timedelta(days=LOOKBEHIND_DAYS)).isoformat()
 TO   = (TODAY + timedelta(days=LOOKAHEAD_DAYS)).isoformat()
 TZ_NY = tz.gettz("America/New_York")
+
+# Set up retry strategy with exponential backoff for API resilience
+_retry_strategy = Retry(
+    total=3,
+    backoff_factor=1,  # 1s, 2s, 4s between retries
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["GET"],
+)
+_session = requests.Session()
+_adapter = HTTPAdapter(max_retries=_retry_strategy)
+_session.mount("https://", _adapter)
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Helpers
@@ -54,11 +67,12 @@ def fmt_number(num):
 
 
 def fetch_earnings() -> list[dict]:
-    """Call Finnhub and return raw earnings list."""
+    """Call Finnhub and return raw earnings list with retry logic."""
     if not TOKEN:
         raise RuntimeError("FINNHUB_TOKEN env-var is missing.")
+    
     params = {"from": FROM, "to": TO, "token": TOKEN}
-    resp = requests.get(API, params=params, timeout=30)
+    resp = _session.get(API, params=params, timeout=30)
     resp.raise_for_status()
     return resp.json().get("earningsCalendar", [])
 
