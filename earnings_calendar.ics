@@ -2,1773 +2,2013 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: ALNY\nFiscal Qtr: 4\nEstimate EPS: 1.2462\nEst. Revenue: 1.20 B\nSource: Finnhub (non-GAAP)
-SUMMARY:ALNY Earnings
-UID:3a75509d-9364-4421-b227-1a5c173bb0b5@3a75.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: PCMC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PCMC Earnings
-UID:35b242dc-6c1d-47a2-9b5d-4323e68dbe7d@35b2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: CCD\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CCD Earnings
-UID:5565306f-3401-49ad-a8e2-736d17b6ce0b@5565.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: TPTW\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:TPTW Earnings
-UID:c6d8dac2-2cfa-4029-9463-ab808f98114e@c6d8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: MSM\nFiscal Qtr: 1\nEstimate EPS: 0.9622\nEst. Revenue: 973 M\nSource: Finnhub (non-GAAP)
-SUMMARY:MSM Earnings
-UID:ee4f1759-2778-4afb-ab84-f2a64ce23143@ee4f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: WVFC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:WVFC Earnings
-UID:ee104d86-264f-410e-9471-3a7b794fea83@ee10.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: RFIL\nFiscal Qtr: 4\nEstimate EPS: 0.0918\nEst. Revenue: 20 M\nSource: Finnhub (non-GAAP)
-SUMMARY:RFIL Earnings
-UID:0257c675-8eb4-43de-b8d5-6aa25f50c1cb@0257.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: PCYO\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PCYO Earnings
-UID:ce8e0e80-0cbb-4c1a-b97a-a3a9d2b1467e@ce8e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251231
-DESCRIPTION:Ticker: NYMXF\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NYMXF Earnings
-UID:4819ae16-0795-40dc-b487-79ab9da87e5d@4819.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: SLP\nFiscal Qtr: 1\nEstimate EPS: 0.1313\nEst. Revenue: 18 M\nSource: Finnhub (non-GAAP)
-SUMMARY:SLP Earnings
-UID:ee92b32b-d099-4836-b1d0-9f195eefe99d@ee92.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: STT\nFiscal Qtr: 4\nEstimate EPS: 2.8245\nEst. Revenue: 3.61 B\nSource: Finnhub (non-GAAP)
-SUMMARY:STT Earnings
-UID:ce3cf2be-479d-443c-884f-74112994542d@ce3c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: ETWO\nFiscal Qtr: 3\nEstimate EPS: 0.0459\nEst. Revenue: 155 M\nSource: Finnhub (non-GAAP)
-SUMMARY:ETWO Earnings
-UID:b48b12a0-685e-4e49-8bc2-3d6fb0e8d28c@b48b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: LOOP\nFiscal Qtr: 3\nEstimate EPS: -0.0612\nEst. Revenue: 892500\nSource: Finnhub (non-GAAP)
-SUMMARY:LOOP Earnings
-UID:3dff383a-0bf3-4762-888d-1fce4b3481a8@3dff.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260109
-DESCRIPTION:Ticker: CNXX\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CNXX Earnings
-UID:c682b0f8-7f3e-4978-83b8-a2210cb5942f@c682.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251223
-DESCRIPTION:Ticker: GTIM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:GTIM Earnings
-UID:fa655bd9-4f54-4daf-8f98-68d34a34bab2@fa65.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: KBH\nFiscal Qtr: 4\nEstimate EPS: 1.7029\nEst. Revenue: 1.67 B\nSource: Finnhub (non-GAAP)
-SUMMARY:KBH Earnings
-UID:cfb44a62-ddfe-425d-85ca-cf209193e15d@cfb4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: ERC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ERC Earnings
-UID:62a65731-0b47-4559-929a-c241870f33bc@62a6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: CCBC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CCBC Earnings
-UID:631e2a47-aa41-4030-b16e-7f87974fc3f8@631e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: TMRC\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:TMRC Earnings
-UID:637f68dc-7c7c-473e-acef-66bb620ee6c7@637f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: WNDW\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:WNDW Earnings
-UID:167c6fc8-e5dc-4415-afa5-271d24ffe4d4@167c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: GBX\nFiscal Qtr: 1\nEstimate EPS: 0.7743\nEst. Revenue: 611 M\nSource: Finnhub (non-GAAP)
-SUMMARY:GBX Earnings
-UID:5fbfa4bd-6ee0-455c-b1ab-1fd4116c6b4b@5fbf.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: FPF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:FPF Earnings
-UID:c3a3c964-12cd-493b-815a-a3888a4dd6d9@c3a3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: SNX\nFiscal Qtr: 4\nEstimate EPS: 3.7663\nEst. Revenue: 17.10 B\nSource: Finnhub (non-GAAP)
-SUMMARY:SNX Earnings
-UID:f7f2354f-f01c-4710-ae97-294e0bdaa90f@f7f2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: SNTW\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:SNTW Earnings
-UID:2bdad097-bf0a-4f6f-9f23-6c3c96b11b64@2bda.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: MALG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:MALG Earnings
-UID:e7c2c42f-cc88-40fb-9457-6ecbbbe3bb06@e7c2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: SBUX\nFiscal Qtr: 1\nEstimate EPS: 0.6032\nEst. Revenue: 9.82 B\nSource: Finnhub (non-GAAP)
-SUMMARY:SBUX Earnings
-UID:272877e9-9fad-41dc-89ae-9d8099f216a1@2728.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: NAMI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NAMI Earnings
-UID:00c3b6c9-f1f5-4472-812a-5b9c71b21f10@00c3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: NZF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NZF Earnings
-UID:63a87209-f4ed-4c32-879a-832f82182af7@63a8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: CNAF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CNAF Earnings
-UID:597e3340-06a7-4705-b3fd-247fe414dd48@597e.org
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: PRGS\nFiscal Qtr: 4\nEstimate EPS: 1.3386\nEst. Revenue: 258 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PRGS Earnings
+UID:dedbb5de-8a22-473c-b57d-10c34df2e1db@dedb.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260112
 DESCRIPTION:Ticker: ASRE\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
 SUMMARY:ASRE Earnings
-UID:786887d0-b9cf-47c9-bf73-fbda40c7801b@7868.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: VRNA\nFiscal Qtr: 4\nEstimate EPS: 0.1904\nEst. Revenue: 131 M\nSource: Finnhub (non-GAAP)
-SUMMARY:VRNA Earnings
-UID:d33c6b3e-754b-4a45-99f3-e084959dacdc@d33c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: HEOL\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HEOL Earnings
-UID:3f1e57c1-774b-48a7-8457-a7d0680c68bd@3f1e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: GS\nFiscal Qtr: 4\nEstimate EPS: 14.2501\nEst. Revenue: 15.70 B\nSource: Finnhub (non-GAAP)
-SUMMARY:GS Earnings
-UID:d01c85c2-1479-4e57-85fd-c306435963ac@d01c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: OVLY\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:OVLY Earnings
-UID:a199df16-21bc-45ca-8905-6a408a8dae3b@a199.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260102
-DESCRIPTION:Ticker: HURC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HURC Earnings
-UID:1fc9aff6-606d-4cf2-9945-41844dd9fb42@1fc9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: BANF\nFiscal Qtr: 4\nEstimate EPS: 1.8221\nEst. Revenue: 177 M\nSource: Finnhub (non-GAAP)
-SUMMARY:BANF Earnings
-UID:51a0ab6e-03ea-4abd-8e9a-299d6006e35b@51a0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260106
-DESCRIPTION:Ticker: SAR\nFiscal Qtr: 3\nEstimate EPS: 0.6032\nEst. Revenue: 32 M\nSource: Finnhub (non-GAAP)
-SUMMARY:SAR Earnings
-UID:d9bf2da4-3bf5-44a5-91ca-f1c4b7314c9f@d9bf.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260106
-DESCRIPTION:Ticker: ANGO\nFiscal Qtr: 2\nEstimate EPS: -0.102\nEst. Revenue: 78 M\nSource: Finnhub (non-GAAP)
-SUMMARY:ANGO Earnings
-UID:b3123f78-aad2-49a8-8c0d-22c0b4bd0bac@b312.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260109
-DESCRIPTION:Ticker: OAKU\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:OAKU Earnings
-UID:10c26778-b2c5-4b0b-aa68-88356eb423e9@10c2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: WRIV\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:WRIV Earnings
-UID:8d78604e-9c31-4c22-ad03-7ed9e3643254@8d78.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: HELE\nFiscal Qtr: 3\nEstimate EPS: 1.7585\nEst. Revenue: 514 M\nSource: Finnhub (non-GAAP)
-SUMMARY:HELE Earnings
-UID:b0fa64d0-bc66-4d19-aa0a-7f22b863afec@b0fa.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: NEOG\nFiscal Qtr: 2\nEstimate EPS: 0.0561\nEst. Revenue: 212 M\nSource: Finnhub (non-GAAP)
-SUMMARY:NEOG Earnings
-UID:c605fa50-e442-4609-b916-6cd7e7a58a3d@c605.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: NUV\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NUV Earnings
-UID:e034d18f-260d-4265-b461-d7b72f4f9c62@e034.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: MAXN\nFiscal Qtr: 3\nEstimate EPS: -0.0102\nEst. Revenue: 248 M\nSource: Finnhub (non-GAAP)
-SUMMARY:MAXN Earnings
-UID:c3165538-f60a-4cf3-b001-0246a3cead9b@c316.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: PXED\nFiscal Qtr: 1\nEstimate EPS: 1.3041\nEst. Revenue: 263 M\nSource: Finnhub (non-GAAP)
-SUMMARY:PXED Earnings
-UID:3d68ac0d-6fb2-46f0-8b2c-1799236c566a@3d68.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: RELL\nFiscal Qtr: 2\nEstimate EPS: -0.0102\nEst. Revenue: 51 M\nSource: Finnhub (non-GAAP)
-SUMMARY:RELL Earnings
-UID:505bbaff-e777-4559-ba56-e65fd16c61ab@505b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: AVBH\nFiscal Qtr: 4\nEstimate EPS: 0.7645\nEst. Revenue: 26 M\nSource: Finnhub (non-GAAP)
-SUMMARY:AVBH Earnings
-UID:3338f7c1-91c3-45cd-9e24-8b799d7e7f16@3338.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: SOPH\nFiscal Qtr: 4\nEstimate EPS: -0.2346\nEst. Revenue: 21 M\nSource: Finnhub (non-GAAP)
-SUMMARY:SOPH Earnings
-UID:d82faaec-41e5-45fc-a0a5-5623ea9d5b16@d82f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-DESCRIPTION:Ticker: BTOG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:BTOG Earnings
-UID:14969f38-12a5-495b-ac52-c5a40f05fd5f@1496.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: CETX\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CETX Earnings
-UID:01340a83-a4da-4699-9b9f-9b4baed7b116@0134.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: HUIZ\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HUIZ Earnings
-UID:1925b3a1-bb3f-43df-b5c7-240c9a43ca13@1925.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: HOVR\nFiscal Qtr: 2\nEstimate EPS: -0.0951\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HOVR Earnings
-UID:8524c231-59fc-4230-bda2-cbf914463b35@8524.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: EVOH\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EVOH Earnings
-UID:27f010c6-0344-4e1b-a25a-877b83188433@27f0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: UNTN\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:UNTN Earnings
-UID:ea5dd4ca-8648-4819-bd08-948b3b9dc74f@ea5d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: AZZ\nFiscal Qtr: 3\nEstimate EPS: 1.4887\nEst. Revenue: 422 M\nSource: Finnhub (non-GAAP)
-SUMMARY:AZZ Earnings
-UID:927c322c-98fb-4c7e-bc79-e59440650b63@927c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: PBAM\nFiscal Qtr: 4\nEstimate EPS: 1.8091\nEst. Revenue: 33 M\nSource: Finnhub (non-GAAP)
-SUMMARY:PBAM Earnings
-UID:35baaf47-2b1b-48c0-99b5-2133a241563c@35ba.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: NMZ\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NMZ Earnings
-UID:d5063082-99a5-4123-80c3-7ebb3e4f9ece@d506.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: FWDI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:FWDI Earnings
-UID:bd080328-471f-45f5-854f-63cd7a56787c@bd08.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-DESCRIPTION:Ticker: IBAC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:IBAC Earnings
-UID:4a96d0fb-cf46-4c0c-8c28-1cc8d256d4ec@4a96.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251231
-DESCRIPTION:Ticker: PHLT\nFiscal Qtr: 3\nEstimate EPS: -0.0136\nEst. Revenue: 34 M\nSource: Finnhub (non-GAAP)
-SUMMARY:PHLT Earnings
-UID:e753459f-a379-4223-90f9-e88513e23044@e753.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251223
-DESCRIPTION:Ticker: MCRAA\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:MCRAA Earnings
-UID:3e329331-fa3d-4a89-b564-a24bda6f309c@3e32.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: CRKN\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CRKN Earnings
-UID:621f140e-03d5-416c-831c-4170d15a4b68@621f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: CHN\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CHN Earnings
-UID:17eade64-0953-4d9b-b75f-3fa9f57a44de@17ea.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: NYMXF\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NYMXF Earnings
-UID:f53de745-39ef-4a1c-92b6-2aba00deb75d@f53d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-DESCRIPTION:Ticker: JHI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:JHI Earnings
-UID:0c025bf5-0ed9-449d-81a7-58ed180c1377@0c02.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: HEI\nFiscal Qtr: 4\nEstimate EPS: 1.2638\nEst. Revenue: 1.21 B\nSource: Finnhub (non-GAAP)
-SUMMARY:HEI Earnings
-UID:c097277a-f06f-4e96-8747-9113d2f20b91@c097.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: CVM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CVM Earnings
-UID:afd5fc63-32db-4460-bb3c-d5d582c5e257@afd5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: WBA\nFiscal Qtr: 1\nEstimate EPS: 0.4545\nEst. Revenue: 39.11 B\nSource: Finnhub (non-GAAP)
-SUMMARY:WBA Earnings
-UID:ff1d13fd-9972-4b7b-b2e4-c3feecd80544@ff1d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: KITL\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:KITL Earnings
-UID:9e7317ba-f1ac-4771-bf5b-fd4beac7afc7@9e73.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: AAPI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AAPI Earnings
-UID:6965d856-d509-497d-97c3-082ad067a8b6@6965.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: RYES\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:RYES Earnings
-UID:b0f0f436-7aef-4343-b2ad-201e141f9006@b0f0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: PFC\nFiscal Qtr: 4\nEstimate EPS: 0.5944\nEst. Revenue: 56 M\nSource: Finnhub (non-GAAP)
-SUMMARY:PFC Earnings
-UID:730a5ade-997a-47f7-b925-01266ae90ed8@730a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: ACCD\nFiscal Qtr: 3\nEstimate EPS: -0.2696\nEst. Revenue: 124 M\nSource: Finnhub (non-GAAP)
-SUMMARY:ACCD Earnings
-UID:078fc833-eab3-450b-89cb-3c35818eae46@078f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: BMXI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:BMXI Earnings
-UID:1e057795-b9f8-4254-b7b2-37e13f8f5a8a@1e05.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: MHI\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:MHI Earnings
-UID:8499a764-7c20-47d4-bc44-d442d5b4fa82@8499.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: KUKE\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:KUKE Earnings
-UID:9eea3edd-1ebf-4484-b134-ca1249d21d9b@9eea.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: CHI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CHI Earnings
-UID:d6304dde-85f8-44ce-ac83-23e7e3a3e61a@d630.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: EBF\nFiscal Qtr: 3\nEstimate EPS: 0.4141\nEst. Revenue: 102 M\nSource: Finnhub (non-GAAP)
-SUMMARY:EBF Earnings
-UID:4cb9b70f-872c-4918-bac1-470e3e99eb2f@4cb9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: FPH\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:FPH Earnings
-UID:8e452de9-b643-4818-8352-13921a42cc0e@8e45.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: CTKB\nFiscal Qtr: 4\nEstimate EPS: -0.0332\nEst. Revenue: 58 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CTKB Earnings
-UID:0112e2b7-ca3d-4a61-92bd-6e2ae8a698d8@0112.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: PSMT\nFiscal Qtr: 1\nEstimate EPS: 1.3804\nEst. Revenue: 1.38 B\nSource: Finnhub (non-GAAP)
-SUMMARY:PSMT Earnings
-UID:6a4470d7-3de4-4c43-aa3b-c65026a0ee4a@6a44.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: SRCE\nFiscal Qtr: 4\nEstimate EPS: 1.6415\nEst. Revenue: 113 M\nSource: Finnhub (non-GAAP)
-SUMMARY:SRCE Earnings
-UID:e6bb2391-11e6-483b-8c07-7441bd7a85cb@e6bb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: TCBI\nFiscal Qtr: 4\nEstimate EPS: 1.8151\nEst. Revenue: 332 M\nSource: Finnhub (non-GAAP)
-SUMMARY:TCBI Earnings
-UID:10db2c38-d23f-4edd-9b4b-e4e064b27c1d@10db.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: RDUS\nFiscal Qtr: 1\nEstimate EPS: -0.0102\nEst. Revenue: 763 M\nSource: Finnhub (non-GAAP)
-SUMMARY:RDUS Earnings
-UID:6fd6c33e-7762-4aed-a730-8924a0e796c3@6fd6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: GS\nFiscal Qtr: 4\nEstimate EPS: 11.9003\nEst. Revenue: 14.78 B\nSource: Finnhub (non-GAAP)
-SUMMARY:GS Earnings
-UID:bcf7ef0e-23c0-4327-b719-90d5cacfadb1@bcf7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: CBAN\nFiscal Qtr: 4\nEstimate EPS: 0.3672\nEst. Revenue: 37 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CBAN Earnings
-UID:b6459863-ef6e-4b75-adf6-8a058e33650e@b645.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: UCB\nFiscal Qtr: 4\nEstimate EPS: 0.7194\nEst. Revenue: 276 M\nSource: Finnhub (non-GAAP)
-SUMMARY:UCB Earnings
-UID:59e95551-6288-465a-8263-f4eba9f08c47@59e9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: CPKF\nFiscal Qtr: 4\nEstimate EPS: 0.8364\nEst. Revenue: 21 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CPKF Earnings
-UID:71a491f7-1031-4ec6-95d2-bf1606c48b11@71a4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: MWG\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:MWG Earnings
-UID:de2bc66a-9a52-4e0c-88d8-2fdd49f34d8a@de2b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: AXIL\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AXIL Earnings
-UID:d1543391-6375-4c5f-811a-5704e82ca539@d154.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: GAMI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:GAMI Earnings
-UID:d80c1374-df78-4a6e-8c72-8b6a5809b7ef@d80c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: IMTE\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:IMTE Earnings
-UID:592d96d4-6a88-4570-880b-5b94cc2a4993@592d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: DTGI\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:DTGI Earnings
-UID:74f0a573-a48a-4eeb-bdfc-f01212ff8aec@74f0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: TTNP\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:TTNP Earnings
-UID:1b1f84b0-51da-4f17-923f-abde2289178c@1b1f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251223
-DESCRIPTION:Ticker: LMNR\nFiscal Qtr: 4\nEstimate EPS: -0.1088\nEst. Revenue: 37 M\nSource: Finnhub (non-GAAP)
-SUMMARY:LMNR Earnings
-UID:d275ec78-8e74-41a0-907e-307453366707@d275.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: MS\nFiscal Qtr: 4\nEstimate EPS: 2.4793\nEst. Revenue: 17.92 B\nSource: Finnhub (non-GAAP)
-SUMMARY:MS Earnings
-UID:36366c5c-1829-42b9-89fc-07814e5bda0c@3636.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: LFCR\nFiscal Qtr: 2\nEstimate EPS: -0.1938\nEst. Revenue: 33 M\nSource: Finnhub (non-GAAP)
-SUMMARY:LFCR Earnings
-UID:479651a5-17ed-45ec-bde0-76f8416f68be@4796.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: KNDI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:KNDI Earnings
-UID:addd098d-b9b7-4d30-9b1f-af85232a6e47@addd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: EGY\nFiscal Qtr: 4\nEstimate EPS: -0.0101\nEst. Revenue: 77 M\nSource: Finnhub (non-GAAP)
-SUMMARY:EGY Earnings
-UID:7cade9f4-2060-42a0-a366-3e68cb30c57c@7cad.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: YXT\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:YXT Earnings
-UID:01249f39-4df2-40a4-84b1-4f25b54ee2b4@0124.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: EDU\nFiscal Qtr: 2\nEstimate EPS: 0.3349\nEst. Revenue: 1.17 B\nSource: Finnhub (non-GAAP)
-SUMMARY:EDU Earnings
-UID:24b6c912-9e60-465a-ae62-8fd748d9ef81@24b6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: GNTY\nFiscal Qtr: 4\nEstimate EPS: 0.867\nEst. Revenue: 34 M\nSource: Finnhub (non-GAAP)
-SUMMARY:GNTY Earnings
-UID:140ce01a-2a93-4223-9be1-7f930dee92cd@140c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: EMKR\nFiscal Qtr: 4\nEstimate EPS: -0.0408\nEst. Revenue: 26 M\nSource: Finnhub (non-GAAP)
-SUMMARY:EMKR Earnings
-UID:e7b148a1-c950-4674-a70f-2bfff1ddca42@e7b1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: PBPB\nFiscal Qtr: 3\nEstimate EPS: 0.0842\nEst. Revenue: 122 M\nSource: Finnhub (non-GAAP)
-SUMMARY:PBPB Earnings
-UID:919d37c7-5309-44a1-9476-5e20ce1c6896@919d.org
+UID:916d7c50-94f7-4a4c-9c47-d08dba9be8c2@916d.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260107
 DESCRIPTION:Ticker: UNF\nFiscal Qtr: 1\nEstimate EPS: 2.0834\nEst. Revenue: 621 M\nSource: Finnhub (non-GAAP)
 SUMMARY:UNF Earnings
-UID:f0634c65-f1b5-46b1-b55a-a42186c09725@f063.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: BSVN\nFiscal Qtr: 4\nEstimate EPS: 1.0669\nEst. Revenue: 24 M\nSource: Finnhub (non-GAAP)
-SUMMARY:BSVN Earnings
-UID:3a4111a1-0250-49ba-a6dc-d029ed598d46@3a41.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251230
-DESCRIPTION:Ticker: ELLO\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ELLO Earnings
-UID:818e7e22-81c8-497c-871c-a2b2c228d5a5@818e.org
+UID:0b746118-9170-488d-b00d-c37d97f14b96@0b74.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260107
 DESCRIPTION:Ticker: JEF\nFiscal Qtr: 4\nEstimate EPS: 0.9662\nEst. Revenue: 2.00 B\nSource: Finnhub (non-GAAP)
 SUMMARY:JEF Earnings
-UID:be77d87d-fc59-4de7-97f3-d8dbe3a729b4@be77.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: SMME\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:SMME Earnings
-UID:c648f3c5-bd31-468e-8e06-932708976ac5@c648.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: CBSH\nFiscal Qtr: 4\nEstimate EPS: 1.0198\nEst. Revenue: 451 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CBSH Earnings
-UID:57d68940-2a49-46d6-b96c-bb69eb0f84ba@57d6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: FBSI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:FBSI Earnings
-UID:d560eb0c-04b5-4e0d-8dda-e9237e33153d@d560.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: JPM\nFiscal Qtr: 4\nEstimate EPS: 5\nEst. Revenue: 46.35 B\nSource: Finnhub (non-GAAP)
-SUMMARY:JPM Earnings
-UID:8cfc9e32-f031-44d0-a1f8-be2176070cd9@8cfc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: TRX\nFiscal Qtr: 1\nEstimate EPS: 0.0253\nEst. Revenue: 25 M\nSource: Finnhub (non-GAAP)
-SUMMARY:TRX Earnings
-UID:96a4209b-76f7-4917-9346-e587fe759716@96a4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: AEHR\nFiscal Qtr: 2\nEstimate EPS: -0.0374\nEst. Revenue: 12 M\nSource: Finnhub (non-GAAP)
-SUMMARY:AEHR Earnings
-UID:8424de5b-92f2-4901-b486-91df614814b8@8424.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: PKE\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PKE Earnings
-UID:6b91229c-32ef-407f-9a5d-e11095cd688b@6b91.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-DESCRIPTION:Ticker: AVRW\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AVRW Earnings
-UID:243e12db-2e2b-427f-9ed6-a77b7ec8a5c8@243e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: FAX\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:FAX Earnings
-UID:a9ff8035-e730-4731-ad6f-6d71812a8804@a9ff.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: ADN\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ADN Earnings
-UID:9bdded26-08fa-4aa4-b90b-a9eb982ab04e@9bdd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: NGTF\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NGTF Earnings
-UID:9dbcb961-1c2c-4bec-a810-f715e613a925@9dbc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: MCB\nFiscal Qtr: 4\nEstimate EPS: 2.0907\nEst. Revenue: 84 M\nSource: Finnhub (non-GAAP)
-SUMMARY:MCB Earnings
-UID:bfbe550d-b25a-4ff0-95b3-371016599e96@bfbe.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: EVOH\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EVOH Earnings
-UID:03ed4310-0868-41db-8aaf-ea62bad77fcc@03ed.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: JBHT\nFiscal Qtr: 4\nEstimate EPS: 1.8157\nEst. Revenue: 3.16 B\nSource: Finnhub (non-GAAP)
-SUMMARY:JBHT Earnings
-UID:5b199d9b-b6b3-4d3d-b628-6db240169143@5b19.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: VMAR\nFiscal Qtr: 1\nEstimate EPS: -2.3766\nEst. Revenue: 816000\nSource: Finnhub (non-GAAP)
-SUMMARY:VMAR Earnings
-UID:3f449166-2931-4900-8315-da5ac4c29d13@3f44.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251230
-DESCRIPTION:Ticker: IMII\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:IMII Earnings
-UID:dbd48b24-d3f0-4383-aa3e-260a7af5440a@dbd4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: BBCP\nFiscal Qtr: 4\nEstimate EPS: 0.0911\nEst. Revenue: 105 M\nSource: Finnhub (non-GAAP)
-SUMMARY:BBCP Earnings
-UID:be9e0cbd-8aab-4486-8d71-8c7a4d93c2cc@be9e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: NVG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NVG Earnings
-UID:0beec161-b00a-4594-885f-4e91a8220008@0bee.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: OM\nFiscal Qtr: 4\nEstimate EPS: -0.6644\nEst. Revenue: 27 M\nSource: Finnhub (non-GAAP)
-SUMMARY:OM Earnings
-UID:7042d333-36d3-410b-9932-c3c0eeee76f5@7042.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: BZYR\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:BZYR Earnings
-UID:fd37b32c-7c6c-4c75-bc5a-c64ac5f66a73@fd37.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260110
-DESCRIPTION:Ticker: JEQ\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:JEQ Earnings
-UID:eba4f762-6d72-48b7-9ea5-2ca679eb8ece@eba4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: REGX\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:REGX Earnings
-UID:c7b16213-4fa0-4bc3-9f2b-eb2345c7a0a5@c7b1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: KARO\nFiscal Qtr: 3\nEstimate EPS: 7.9869\nEst. Revenue: 1.40 B\nSource: Finnhub (non-GAAP)
-SUMMARY:KARO Earnings
-UID:2b85002b-ac7c-4b85-ba68-e4c63faae9a5@2b85.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: BK\nFiscal Qtr: 4\nEstimate EPS: 2.0502\nEst. Revenue: 5.26 B\nSource: Finnhub (non-GAAP)
-SUMMARY:BK Earnings
-UID:b071f153-720c-4a72-89aa-f773a3c75303@b071.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: WDFC\nFiscal Qtr: 1\nEstimate EPS: 1.4754\nEst. Revenue: 158 M\nSource: Finnhub (non-GAAP)
-SUMMARY:WDFC Earnings
-UID:89cd1b9a-4715-4325-8e2b-841863f45204@89cd.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251230
-DESCRIPTION:Ticker: AOREF\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AOREF Earnings
-UID:71a5824c-baf2-4704-97af-5b295e741666@71a5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: CHNR\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CHNR Earnings
-UID:5fa1166d-b03f-4a51-a64e-e307f8255b62@5fa1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: IAF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:IAF Earnings
-UID:76610f7a-9af1-4787-9a0a-36e32110acac@7661.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: TRSG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:TRSG Earnings
-UID:d38b97c2-543d-4577-917e-f7502e11d1f5@d38b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: CZNC\nFiscal Qtr: 4\nEstimate EPS: 0.4386\nEst. Revenue: 29 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CZNC Earnings
-UID:eaef2324-b282-4257-a028-c3d4de229f66@eaef.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: GHG\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:GHG Earnings
-UID:243c35cd-e8d5-4b5d-9b94-9f0bd2915ab1@243c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: RDDT\nFiscal Qtr: 4\nEstimate EPS: 0.9422\nEst. Revenue: 679 M\nSource: Finnhub (non-GAAP)
-SUMMARY:RDDT Earnings
-UID:f27f5ba1-7543-496f-b4fd-5f22d8e2925e@f27f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: INDB\nFiscal Qtr: 4\nEstimate EPS: 1.6871\nEst. Revenue: 254 M\nSource: Finnhub (non-GAAP)
-SUMMARY:INDB Earnings
-UID:ea236f55-f64d-49c0-b1f0-6369c3fe33c1@ea23.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251230
-DESCRIPTION:Ticker: MFM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:MFM Earnings
-UID:9dbb57cd-f483-4636-8010-f1d44371756e@9dbb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: YGMZ\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:YGMZ Earnings
-UID:9083ede4-0c6d-40aa-8041-3ed2cd692da8@9083.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: SMPL\nFiscal Qtr: 1\nEstimate EPS: 0.363\nEst. Revenue: 346 M\nSource: Finnhub (non-GAAP)
-SUMMARY:SMPL Earnings
-UID:190a4d62-0e19-4ca9-9ab3-dc7cd4a81c63@190a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251223
-DESCRIPTION:Ticker: CTOR\nFiscal Qtr: 4\nEstimate EPS: -0.1224\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CTOR Earnings
-UID:f3d95b38-4f42-457a-8f79-a86cdae6ab79@f3d9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: RILY\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:RILY Earnings
-UID:529543f4-e427-46c1-90f9-2709aa1d6876@5295.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: NTIC\nFiscal Qtr: 1\nEstimate EPS: 0.051\nEst. Revenue: 21 M\nSource: Finnhub (non-GAAP)
-SUMMARY:NTIC Earnings
-UID:7b87ba17-d869-43aa-960e-b8d82a6c0cf3@7b87.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: SRAX\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:SRAX Earnings
-UID:fb04151f-f27c-4ef7-bb1f-52069e907733@fb04.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: SPPL\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:SPPL Earnings
-UID:58df7282-1a82-4857-bc8b-73628216f476@58df.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: SVIN\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:SVIN Earnings
-UID:e8961539-a29d-42b4-a4f9-f7f5530e102c@e896.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: FAST\nFiscal Qtr: 4\nEstimate EPS: 0.2645\nEst. Revenue: 2.09 B\nSource: Finnhub (non-GAAP)
-SUMMARY:FAST Earnings
-UID:ee277a56-cd5e-424c-8648-5b79cd1342ea@ee27.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: STZ\nFiscal Qtr: 3\nEstimate EPS: 2.6685\nEst. Revenue: 2.19 B\nSource: Finnhub (non-GAAP)
-SUMMARY:STZ Earnings
-UID:e06f8d65-cd97-41b6-b8e7-228cfb7a3945@e06f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: CSQ\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CSQ Earnings
-UID:c5a07a79-e533-4ebf-ac7a-e7ea3f788fe1@c5a0.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: BOKF\nFiscal Qtr: 4\nEstimate EPS: 2.2114\nEst. Revenue: 562 M\nSource: Finnhub (non-GAAP)
-SUMMARY:BOKF Earnings
-UID:4968211c-180d-4c10-a5f9-e74225e0c8cf@4968.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: AONC\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AONC Earnings
-UID:3412cb5b-b1f7-49ed-9c8e-a7e9c38ebce4@3412.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: WAFD\nFiscal Qtr: 1\nEstimate EPS: 0.7681\nEst. Revenue: 192 M\nSource: Finnhub (non-GAAP)
-SUMMARY:WAFD Earnings
-UID:1deb8071-5e49-4456-9631-a06133edf780@1deb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251223
-DESCRIPTION:Ticker: VSME\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:VSME Earnings
-UID:20187c12-05b6-4899-8643-79d00c98945b@2018.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: GLGI\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:GLGI Earnings
-UID:fd9546da-19f6-413e-b3ff-7015475b8849@fd95.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: SRL\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:SRL Earnings
-UID:9ef53c15-0918-4bfc-a919-db02e024c3be@9ef5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: CVGW\nFiscal Qtr: 4\nEstimate EPS: 0.3876\nEst. Revenue: 157 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CVGW Earnings
-UID:be9fed23-4582-46be-99f9-b6a13260de00@be9f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: OHCS\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:OHCS Earnings
-UID:3ca5fc10-6052-4d92-bae8-c3229aa77e26@3ca5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: EVT\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EVT Earnings
-UID:dc323b0f-07b1-4098-b5a4-5fd7e759a837@dc32.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: TXG\nFiscal Qtr: 4\nEstimate EPS: -0.2266\nEst. Revenue: 158 M\nSource: Finnhub (non-GAAP)
-SUMMARY:TXG Earnings
-UID:2c204f98-8477-4263-845a-4aed4a435e2f@2c20.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: CYDY\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CYDY Earnings
-UID:cce12e0e-5d16-4ae4-a67f-dd0d9dd48322@cce1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: LNN\nFiscal Qtr: 1\nEstimate EPS: 1.4898\nEst. Revenue: 168 M\nSource: Finnhub (non-GAAP)
-SUMMARY:LNN Earnings
-UID:3f8cd9ac-2961-4c12-a1bc-71530bc50f3c@3f8c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251230
-DESCRIPTION:Ticker: EDXC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EDXC Earnings
-UID:7fb891a0-930b-441b-aabd-55321cb19634@7fb8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: KISB\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:KISB Earnings
-UID:b1e4c778-9404-48ac-8b29-3506e7f1f8ce@b1e4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-DESCRIPTION:Ticker: HTD\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HTD Earnings
-UID:403e63f5-d5ff-4249-87f4-c49a2803bd6f@403e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251231
-DESCRIPTION:Ticker: AXG\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AXG Earnings
-UID:a41d3eb1-8658-494d-9eaf-94e514295b19@a41d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: STME\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:STME Earnings
-UID:2154567b-47dc-45ba-9530-22c85e5e20cf@2154.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: AYI\nFiscal Qtr: 1\nEstimate EPS: 4.599\nEst. Revenue: 1.16 B\nSource: Finnhub (non-GAAP)
-SUMMARY:AYI Earnings
-UID:c241baf2-2b24-46e8-8700-126fafcb238d@c241.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: CALM\nFiscal Qtr: 2\nEstimate EPS: 2.0604\nEst. Revenue: 857 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CALM Earnings
-UID:ce83fe88-c131-4489-ab3f-bbfb59959e00@ce83.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-DESCRIPTION:Ticker: PDT\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PDT Earnings
-UID:a7ca031d-2acf-4531-9ccf-0eead346a427@a7ca.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: LIMX\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:LIMX Earnings
-UID:7dffbafe-aa5e-4076-90f6-495cf28d4e21@7dff.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: SHMD\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:SHMD Earnings
-UID:6143c126-df33-42e0-8a12-c1cbecd4597b@6143.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: MARK\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:MARK Earnings
-UID:ca146a74-c111-4be5-90c1-16d54763f278@ca14.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: APLD\nFiscal Qtr: 2\nEstimate EPS: -0.0986\nEst. Revenue: 89 M\nSource: Finnhub (non-GAAP)
-SUMMARY:APLD Earnings
-UID:8828d611-df6d-496b-87e4-2e996dc31ebf@8828.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: BRW\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:BRW Earnings
-UID:cbed140a-1fea-4234-a62e-ef6cfcdc70a2@cbed.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251230
-DESCRIPTION:Ticker: MMT\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:MMT Earnings
-UID:f7d2d435-6b27-4405-ad16-482ae275fcb4@f7d2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: AUSI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AUSI Earnings
-UID:691bc3e2-8376-45bc-8704-af827a92ffff@691b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: NTRP\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NTRP Earnings
-UID:a9646d0d-5f1b-43a5-b1d6-ad0dcf150b6f@a964.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: RYSMF\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:RYSMF Earnings
-UID:19917c03-07a9-4709-9695-2be17ee7885a@1991.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: MOND\nFiscal Qtr: 3\nEstimate EPS: -0.1734\nEst. Revenue: 70 M\nSource: Finnhub (non-GAAP)
-SUMMARY:MOND Earnings
-UID:fe17466a-0194-4bb1-a4cf-af49dda7464f@fe17.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: MYGN\nFiscal Qtr: 4\nEstimate EPS: -0.0108\nEst. Revenue: 211 M\nSource: Finnhub (non-GAAP)
-SUMMARY:MYGN Earnings
-UID:6e35b50d-a1da-40c7-bc34-565426cfa0a2@6e35.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: PBLA\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PBLA Earnings
-UID:e2d1250a-922c-4be6-8cc8-d356ff282829@e2d1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: BKSC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:BKSC Earnings
-UID:380fe2ac-4f78-40d5-ac23-af90abbc948a@380f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: CNBB\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CNBB Earnings
-UID:7c9d53f6-69f0-49a4-af52-708b32acc2ca@7c9d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: RPM\nFiscal Qtr: 2\nEstimate EPS: 1.4384\nEst. Revenue: 1.95 B\nSource: Finnhub (non-GAAP)
-SUMMARY:RPM Earnings
-UID:e4813b7a-8839-4865-a315-582565f7abd2@e481.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: ORMP\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ORMP Earnings
-UID:4034497f-22c3-47b2-81ba-7c11f3d578ca@4034.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: EDVR\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EDVR Earnings
-UID:e0f30c1e-66d4-4687-bd27-81eda7b05e2b@e0f3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: NRIS\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NRIS Earnings
-UID:6dc1cdc3-5d87-49d4-9a27-3d7664528adb@6dc1.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: CMC\nFiscal Qtr: 1\nEstimate EPS: 1.5835\nEst. Revenue: 2.08 B\nSource: Finnhub (non-GAAP)
-SUMMARY:CMC Earnings
-UID:ea95ef85-532f-441e-9ca1-f6de81463368@ea95.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: HRST\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HRST Earnings
-UID:1efb7b4e-2db1-4577-8d1e-a000ad62e545@1efb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: PNFP\nFiscal Qtr: 4\nEstimate EPS: 2.2432\nEst. Revenue: 559 M\nSource: Finnhub (non-GAAP)
-SUMMARY:PNFP Earnings
-UID:8d3e8a2e-4987-4ef2-a0a0-a81bbfbf386e@8d3e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: EAD\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EAD Earnings
-UID:57dec8af-b90e-46bc-9d28-97d9759b6082@57de.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: EXEL\nFiscal Qtr: 4\nEstimate EPS: 0.7104\nEst. Revenue: 622 M\nSource: Finnhub (non-GAAP)
-SUMMARY:EXEL Earnings
-UID:74f5e67b-a842-4c2f-b911-cc8d1b49b4db@74f5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: DAL\nFiscal Qtr: 4\nEstimate EPS: 1.5935\nEst. Revenue: 14.91 B\nSource: Finnhub (non-GAAP)
-SUMMARY:DAL Earnings
-UID:a7006e55-7f2d-4419-82d1-446ba308183c@a700.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: BMRA\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:BMRA Earnings
-UID:6bf2569a-098f-4329-bf56-5ea972febcd2@6bf2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: ATON\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ATON Earnings
-UID:e8d27d5a-ccc9-4f75-99e7-a30e1afae346@e8d2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: WKSP\nFiscal Qtr: 4\nEstimate EPS: -0.4029\nEst. Revenue: 9 M\nSource: Finnhub (non-GAAP)
-SUMMARY:WKSP Earnings
-UID:59809ca0-d66c-4212-8f9c-f491762749f8@5980.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: WFC\nFiscal Qtr: 4\nEstimate EPS: 1.7021\nEst. Revenue: 21.89 B\nSource: Finnhub (non-GAAP)
-SUMMARY:WFC Earnings
-UID:a22b4916-4986-4b05-b1d3-cca854b5dcd1@a22b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: C\nFiscal Qtr: 4\nEstimate EPS: 1.8128\nEst. Revenue: 21.31 B\nSource: Finnhub (non-GAAP)
-SUMMARY:C Earnings
-UID:531d28dd-ea4c-4453-b906-fc359d77fa4d@531d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: RJDG\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:RJDG Earnings
-UID:40e29582-43ac-4728-833f-e68d810829c7@40e2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: NOBH\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NOBH Earnings
-UID:f66fc0e3-84e2-4eb8-a169-766f76294805@f66f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: AMTD\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AMTD Earnings
-UID:452cea21-ae8b-4ac7-ad9a-134a547583a5@452c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: AFB\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AFB Earnings
-UID:e7322973-2403-4095-89d4-7c936c6cf2e6@e732.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: NAD\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NAD Earnings
-UID:602c52cf-e841-47a4-b689-6dea4fe0c0b3@602c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: CRSB\nFiscal Qtr: 4\nEstimate EPS: 1.2974\nEst. Revenue: 28 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CRSB Earnings
-UID:3234377c-2a66-462b-804e-e3d3e90e6876@3234.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: NYMXF\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NYMXF Earnings
-UID:3a2be328-049a-4022-bd4b-91ffb32d3e03@3a2b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: CTXR\nFiscal Qtr: 4\nEstimate EPS: -0.4964\nEst. Revenue: 6 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CTXR Earnings
-UID:98133d0a-7a7c-4d1a-a55b-30a34551873d@9813.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: HIHO\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HIHO Earnings
-UID:7c6aad0c-a5f2-4c30-b60f-c37c4e349d4d@7c6a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260106
-DESCRIPTION:Ticker: AIR\nFiscal Qtr: 2\nEstimate EPS: 1.0487\nEst. Revenue: 769 M\nSource: Finnhub (non-GAAP)
-SUMMARY:AIR Earnings
-UID:c6967342-0dec-4cbf-8cde-5b606d04aa90@c696.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: NXEN\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NXEN Earnings
-UID:eaa29dc2-f47d-487a-8c94-571f615c88bb@eaa2.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: SIFY\nFiscal Qtr: 3\nEstimate EPS: 0\nEst. Revenue: 175 M\nSource: Finnhub (non-GAAP)
-SUMMARY:SIFY Earnings
-UID:6c02a4b3-5556-4ee0-b91c-9b9a10e7d2ea@6c02.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: ACAN\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ACAN Earnings
-UID:5122a37b-ea76-4c6c-9bbd-ebfb4a629556@5122.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: ENGN\nFiscal Qtr: 4\nEstimate EPS: -0.5796\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ENGN Earnings
-UID:d686a988-68ce-456d-97a7-f7d9deb72f2b@d686.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: CYCA\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CYCA Earnings
-UID:afda3e9b-8d52-4c82-8550-f30558a92136@afda.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: PEBC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PEBC Earnings
-UID:6dc7f13e-6553-4d2c-9d7c-173c6660ed8c@6dc7.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260106
-DESCRIPTION:Ticker: CHSCP\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CHSCP Earnings
-UID:2248b0a9-8839-4895-85bb-da165fbd462e@2248.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: NGTF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NGTF Earnings
-UID:152ac8c6-f0ad-4803-9f1a-0711554ab5d4@152a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: BDL\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:BDL Earnings
-UID:d7fbcb16-c183-4879-af9f-30d3efcea9a9@d7fb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251223
-DESCRIPTION:Ticker: SNTG\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:SNTG Earnings
-UID:51cb35e3-4898-4292-918b-7419831faaf2@51cb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: FNGR\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:FNGR Earnings
-UID:d2802203-2e82-44d1-ad7d-51a05a95d425@d280.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251223
-DESCRIPTION:Ticker: DFPH\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:DFPH Earnings
-UID:8c41f097-6ec6-4557-8ac3-f7afcf58d214@8c41.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: GRAL\nFiscal Qtr: 4\nEstimate EPS: -3.3082\nEst. Revenue: 43 M\nSource: Finnhub (non-GAAP)
-SUMMARY:GRAL Earnings
-UID:f4703b6e-4a86-4303-b8db-9b05961409b2@f470.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: HIFS\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HIFS Earnings
-UID:cf16cffe-e0ec-4b78-b27f-d775228cf150@cf16.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: BLK\nFiscal Qtr: 4\nEstimate EPS: 12.8511\nEst. Revenue: 6.82 B\nSource: Finnhub (non-GAAP)
-SUMMARY:BLK Earnings
-UID:a95a8449-b0aa-44c9-b9eb-5059d79f0bee@a95a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: NEA\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NEA Earnings
-UID:bbd0b166-43d2-4307-8169-b736b038c2d4@bbd0.org
+UID:d145262b-42de-4e1f-891e-3d1202c5f242@d145.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260116
 DESCRIPTION:Ticker: EZGO\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
 SUMMARY:EZGO Earnings
-UID:e2047e9a-d22a-43f0-8b80-9fcd5cca72e0@e204.org
+UID:8c7daa8d-da5d-4038-a526-da782985ca59@8c7d.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: WMPN\nFiscal Qtr: 2\nEstimate EPS: 0.0204\nEst. Revenue: 6 M\nSource: Finnhub (non-GAAP)
-SUMMARY:WMPN Earnings
-UID:1eb32c8b-755e-4d08-9906-15a82510df66@1eb3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: ANVI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ANVI Earnings
-UID:69ae3496-2b89-4864-8612-030943be729a@69ae.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: APOG\nFiscal Qtr: 3\nEstimate EPS: 1.0379\nEst. Revenue: 361 M\nSource: Finnhub (non-GAAP)
-SUMMARY:APOG Earnings
-UID:dcdb6c58-3e4e-45ab-a298-f6560c11aabd@dcdb.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: FUL\nFiscal Qtr: 4\nEstimate EPS: 1.2396\nEst. Revenue: 912 M\nSource: Finnhub (non-GAAP)
-SUMMARY:FUL Earnings
-UID:dd7cafbb-ffc6-4599-bde1-527f6e35dc2e@dd7c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: OPI\nFiscal Qtr: 3\nEstimate EPS: -0.8282\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:OPI Earnings
-UID:d05ae2b9-3c6f-40e6-8ae6-dd83c3a74675@d05a.org
+DTSTART;VALUE=DATE:20251230
+DESCRIPTION:Ticker: MFM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:MFM Earnings
+UID:1277d0e9-200d-41dd-a709-f2206b6214b7@1277.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260112
 DESCRIPTION:Ticker: ENRT\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
 SUMMARY:ENRT Earnings
-UID:b502f395-bada-4dcc-98e1-bf0c910682f4@b502.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: WABC\nFiscal Qtr: 4\nEstimate EPS: 1.0863\nEst. Revenue: 63 M\nSource: Finnhub (non-GAAP)
-SUMMARY:WABC Earnings
-UID:cf177cec-ab6f-439b-9133-1e62263ddbeb@cf17.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: PIKM\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PIKM Earnings
-UID:738f8ca8-f03e-4aa8-a874-1212dafecf6d@738f.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: IIIN\nFiscal Qtr: 1\nEstimate EPS: 0.3825\nEst. Revenue: 165 M\nSource: Finnhub (non-GAAP)
-SUMMARY:IIIN Earnings
-UID:101e8720-4478-43fa-850e-1b7c881df076@101e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: EACO\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EACO Earnings
-UID:2dafebdb-ad76-4273-bcc0-7854d8851c4b@2daf.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: ICCT\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ICCT Earnings
-UID:03a8dba0-b047-43a5-93d5-566de81d8cc7@03a8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: RF\nFiscal Qtr: 4\nEstimate EPS: 0.6341\nEst. Revenue: 2.00 B\nSource: Finnhub (non-GAAP)
-SUMMARY:RF Earnings
-UID:68b5b6d0-a6b5-475d-b90b-7d5b68552435@68b5.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: PPG\nFiscal Qtr: 4\nEstimate EPS: 1.6027\nEst. Revenue: 3.82 B\nSource: Finnhub (non-GAAP)
-SUMMARY:PPG Earnings
-UID:3c582a7b-a591-4bf6-9403-955b2a76f935@3c58.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: EDUC\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EDUC Earnings
-UID:bcce5a39-4253-4e03-aebd-de36e3df0b6f@bcce.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: ENSV\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ENSV Earnings
-UID:288eef7f-4287-420c-aa17-bec37404a624@288e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: OFED\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:OFED Earnings
-UID:44123c61-a588-499b-be99-c00e7b9b4909@4412.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260105
-DESCRIPTION:Ticker: NFTM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:NFTM Earnings
-UID:7d998808-8751-4824-ba73-242693b100c1@7d99.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: DJCO\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:DJCO Earnings
-UID:bdbf6798-fddc-43aa-a331-cd2451cec508@bdbf.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251231
-DESCRIPTION:Ticker: FDCT\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:FDCT Earnings
-UID:cf60c032-4ce1-44c8-880e-ff9e59b40442@cf60.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: UGRO\nFiscal Qtr: 1\nEstimate EPS: -0.1734\nEst. Revenue: 19 M\nSource: Finnhub (non-GAAP)
-SUMMARY:UGRO Earnings
-UID:492c84ed-9d81-4c46-a1f0-53d8ac20dc2b@492c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: AZI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AZI Earnings
-UID:b15ebba5-edcb-4330-910c-c152c7859bf6@b15e.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260106
-DESCRIPTION:Ticker: PENG\nFiscal Qtr: 1\nEstimate EPS: 0.4451\nEst. Revenue: 346 M\nSource: Finnhub (non-GAAP)
-SUMMARY:PENG Earnings
-UID:893c0c7a-c4c5-4331-98c5-8df293bc35ad@893c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: DHCC\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:DHCC Earnings
-UID:c9e39075-4237-4d2f-b79a-c47dddcc00f0@c9e3.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: IH\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:IH Earnings
-UID:3395679b-b42b-42f1-9b03-ef2ba38170c0@3395.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: HOMB\nFiscal Qtr: 4\nEstimate EPS: 0.611\nEst. Revenue: 278 M\nSource: Finnhub (non-GAAP)
-SUMMARY:HOMB Earnings
-UID:e6792960-6ef6-46fd-bfe7-bf21cc56199e@e679.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: ANIX\nFiscal Qtr: 4\nEstimate EPS: -0.0893\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ANIX Earnings
-UID:e90ae8b9-c57f-4abd-9cb4-09ce85bfc90b@e90a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: LQWC\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:LQWC Earnings
-UID:b346d8e0-d61f-4a93-b307-ffc2a50620c8@b346.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-DESCRIPTION:Ticker: PUCK\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PUCK Earnings
-UID:deb80614-8151-425d-8944-7900a954564b@deb8.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: FC\nFiscal Qtr: 1\nEstimate EPS: 0.085\nEst. Revenue: 67 M\nSource: Finnhub (non-GAAP)
-SUMMARY:FC Earnings
-UID:e361cf05-b590-4aea-9182-4f28afcb13fc@e361.org
+UID:10b5a183-82a0-4e90-9c38-9a19ea450e1c@10b5.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251224
 DESCRIPTION:Ticker: VPLM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
 SUMMARY:VPLM Earnings
-UID:2ded549e-2953-48f8-9028-036bc1b71d57@2ded.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: KRUS\nFiscal Qtr: 1\nEstimate EPS: -0.1478\nEst. Revenue: 74 M\nSource: Finnhub (non-GAAP)
-SUMMARY:KRUS Earnings
-UID:0285fbdd-ae2a-4355-9a93-d644c37319f3@0285.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: TLRY\nFiscal Qtr: 2\nEstimate EPS: -0.204\nEst. Revenue: 215 M\nSource: Finnhub (non-GAAP)
-SUMMARY:TLRY Earnings
-UID:26aacfcb-5992-4746-b561-600799f8ca7d@26aa.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: BIORQ\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:BIORQ Earnings
-UID:6675836c-4fb8-494e-87c9-6da4097a98e6@6675.org
+UID:f3a55c2a-ea98-4fac-b285-8a8853437003@f3a5.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: PNC\nFiscal Qtr: 4\nEstimate EPS: 4.2175\nEst. Revenue: 5.97 B\nSource: Finnhub (non-GAAP)
-SUMMARY:PNC Earnings
-UID:e8e88292-07c3-4b8e-99d5-83578ab9bb94@e8e8.org
+DESCRIPTION:Ticker: EVOH\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EVOH Earnings
+UID:f089858d-8443-4e78-8ea3-a2bf05cd94f4@f089.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260106
+DESCRIPTION:Ticker: ANGO\nFiscal Qtr: 2\nEstimate EPS: -0.102\nEst. Revenue: 78 M\nSource: Finnhub (non-GAAP)
+SUMMARY:ANGO Earnings
+UID:1212f74f-cf1f-4ff4-a5da-ece603f7879a@1212.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: SFBS\nFiscal Qtr: 4\nEstimate EPS: 1.411\nEst. Revenue: 155 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SFBS Earnings
+UID:8a1e71a1-16c4-499c-a745-0a8011bcbc96@8a1e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: CYCA\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CYCA Earnings
+UID:771a2d8e-5852-4abc-ac39-8fd9ee163c9a@771a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: AVBH\nFiscal Qtr: 4\nEstimate EPS: 0.7645\nEst. Revenue: 26 M\nSource: Finnhub (non-GAAP)
+SUMMARY:AVBH Earnings
+UID:cea85c86-55cc-4264-9bdd-7a76a2771668@cea8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: UNTN\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:UNTN Earnings
+UID:2df5fd47-1df0-4a73-84a7-246381503976@2df5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: INDB\nFiscal Qtr: 4\nEstimate EPS: 1.6871\nEst. Revenue: 254 M\nSource: Finnhub (non-GAAP)
+SUMMARY:INDB Earnings
+UID:adfa03e4-5862-4336-9c65-b7fd959e30f1@adfa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: NMZ\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NMZ Earnings
+UID:4898f3ac-5468-42ae-a87d-b72f5d9f6a87@4898.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: BSVN\nFiscal Qtr: 4\nEstimate EPS: 1.0669\nEst. Revenue: 24 M\nSource: Finnhub (non-GAAP)
+SUMMARY:BSVN Earnings
+UID:5b7638de-b86d-4c2d-8317-817c08c90498@5b76.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: RYSMF\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:RYSMF Earnings
+UID:4ef09462-423c-4171-94ea-2c4f25076e6d@4ef0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: EDVR\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EDVR Earnings
+UID:b1bede86-c86a-474c-8afd-3a855c82b088@b1be.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: WVFC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:WVFC Earnings
+UID:ce64aac2-7020-4bf9-b2f4-4a5ba510f83c@ce64.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: MOND\nFiscal Qtr: 3\nEstimate EPS: -0.1734\nEst. Revenue: 70 M\nSource: Finnhub (non-GAAP)
+SUMMARY:MOND Earnings
+UID:e57b7fa8-d043-4d91-8893-5f060a6db9ee@e57b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: TMRC\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:TMRC Earnings
+UID:bbe278ef-0f69-4dac-8065-b36e765fd144@bbe2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: SHMD\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:SHMD Earnings
+UID:172efe72-6fe1-4fa1-aab0-0b9930a63fa2@172e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DESCRIPTION:Ticker: BTOG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BTOG Earnings
+UID:1a31e8ed-f6a5-488e-a3dd-cebd4eebc99b@1a31.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: CBAN\nFiscal Qtr: 4\nEstimate EPS: 0.3672\nEst. Revenue: 37 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CBAN Earnings
+UID:6d610174-2af8-4802-9ea8-b6c591dd6af8@6d61.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: TXG\nFiscal Qtr: 4\nEstimate EPS: -0.2266\nEst. Revenue: 158 M\nSource: Finnhub (non-GAAP)
+SUMMARY:TXG Earnings
+UID:49030008-576f-473e-9de5-a58bd12af49a@4903.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: WFC\nFiscal Qtr: 4\nEstimate EPS: 1.7021\nEst. Revenue: 21.89 B\nSource: Finnhub (non-GAAP)
+SUMMARY:WFC Earnings
+UID:043724ca-404f-434a-95f6-c3189d5659b6@0437.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: PBAM\nFiscal Qtr: 4\nEstimate EPS: 1.8091\nEst. Revenue: 33 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PBAM Earnings
+UID:69010b7d-06ee-4447-b9c9-5db420fe44fb@6901.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: NOBH\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NOBH Earnings
+UID:01937d7b-6a91-4ef0-9cdc-b0f3525c8fce@0193.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: FRMO\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:FRMO Earnings
-UID:828d1bcb-3302-453c-9fac-cf70844d9b0a@828d.org
+DESCRIPTION:Ticker: LOOP\nFiscal Qtr: 3\nEstimate EPS: -0.0612\nEst. Revenue: 892500\nSource: Finnhub (non-GAAP)
+SUMMARY:LOOP Earnings
+UID:df908ad3-f886-48f1-809e-8d6f53336f3c@df90.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: TAYD\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:TAYD Earnings
-UID:23bfde44-f0d6-4ab4-9755-81e3e80e948b@23bf.org
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: AZZ\nFiscal Qtr: 3\nEstimate EPS: 1.4887\nEst. Revenue: 422 M\nSource: Finnhub (non-GAAP)
+SUMMARY:AZZ Earnings
+UID:fb0d2fc1-2263-4d12-8952-1f15374d221d@fb0d.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251224
 DESCRIPTION:Ticker: FUST\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
 SUMMARY:FUST Earnings
-UID:28be8dcf-4c71-460a-b92e-651b017b4238@28be.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260116
-DESCRIPTION:Ticker: MTB\nFiscal Qtr: 4\nEstimate EPS: 4.5253\nEst. Revenue: 2.50 B\nSource: Finnhub (non-GAAP)
-SUMMARY:MTB Earnings
-UID:9398ebc3-74fe-4e1f-be74-52810f32c140@9398.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: CLSH\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CLSH Earnings
-UID:778c6a4e-b4e7-40ab-8c69-b18d6e0e7878@778c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: BTSG\nFiscal Qtr: 4\nEstimate EPS: 0.3554\nEst. Revenue: 3.45 B\nSource: Finnhub (non-GAAP)
-SUMMARY:BTSG Earnings
-UID:bd86ca55-50fa-4e4a-8dc7-1be73dd7c157@bd86.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251225
-DESCRIPTION:Ticker: CHW\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CHW Earnings
-UID:c09437d8-3309-462d-b6ca-893193813d5d@c094.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: SIBN\nFiscal Qtr: 4\nEstimate EPS: -0.1064\nEst. Revenue: 66 M\nSource: Finnhub (non-GAAP)
-SUMMARY:SIBN Earnings
-UID:21a63619-2284-4f26-9728-2e12064b8ff8@21a6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: ENBP\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:ENBP Earnings
-UID:ccdc12f8-313c-4422-83a6-31f908cb48fa@ccdc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260108
-DESCRIPTION:Ticker: LEXX\nFiscal Qtr: 1\nEstimate EPS: -0.1734\nEst. Revenue: 102000\nSource: Finnhub (non-GAAP)
-SUMMARY:LEXX Earnings
-UID:6d7452cc-1dcc-417b-a2d2-b9e2382eed6a@6d74.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: CBIH\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CBIH Earnings
-UID:f8c44c32-3c13-43cf-bd69-e8aea3ef22c8@f8c4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251226
-DESCRIPTION:Ticker: PMO\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:PMO Earnings
-UID:af42efc1-58fd-4678-90ce-910c865826ce@af42.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: OKYO\nFiscal Qtr: 2\nEstimate EPS: -0.0408\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:OKYO Earnings
-UID:4e41c5fb-dba9-4457-945a-2f84bd067657@4e41.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251222
-DESCRIPTION:Ticker: HQL\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:HQL Earnings
-UID:d9710838-cc9d-412b-ac64-3cb3f69e556d@d971.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260115
-DESCRIPTION:Ticker: FHN\nFiscal Qtr: 4\nEstimate EPS: 0.4626\nEst. Revenue: 867 M\nSource: Finnhub (non-GAAP)
-SUMMARY:FHN Earnings
-UID:817d51c2-2899-425c-86b7-90b13b3b76f0@817d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: BAC\nFiscal Qtr: 4\nEstimate EPS: 0.9754\nEst. Revenue: 27.86 B\nSource: Finnhub (non-GAAP)
-SUMMARY:BAC Earnings
-UID:2c566529-ed87-4fa2-9d19-9b9ddc3f58f2@2c56.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260113
-DESCRIPTION:Ticker: CNXC\nFiscal Qtr: 4\nEstimate EPS: 2.9682\nEst. Revenue: 2.59 B\nSource: Finnhub (non-GAAP)
-SUMMARY:CNXC Earnings
-UID:9a41716a-3ec8-4c69-abd5-43ad3ba0bfc0@9a41.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260109
-DESCRIPTION:Ticker: AOD\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AOD Earnings
-UID:945ad7d2-12f5-4f0e-b5a5-e238d2d33d35@945a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260119
-DESCRIPTION:Ticker: QMMM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:QMMM Earnings
-UID:3524b29e-57e9-422b-8604-b80237a6f90a@3524.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260114
-DESCRIPTION:Ticker: AMBK\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AMBK Earnings
-UID:5e22f9a5-bee8-4daf-a7ec-23ea195cf25c@5e22.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: KNIT\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:KNIT Earnings
-UID:96141c36-3783-4be1-b745-fe0391a8f9a3@9614.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260112
-DESCRIPTION:Ticker: CNBX\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CNBX Earnings
-UID:03320e65-f677-4950-8ca3-7f6870ce675b@0332.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: LIN\nFiscal Qtr: 4\nEstimate EPS: 4.2165\nEst. Revenue: 8.73 B\nSource: Finnhub (non-GAAP)
-SUMMARY:LIN Earnings
-UID:ccf63694-1bc6-4006-be28-48b6224afe13@ccf6.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-DESCRIPTION:Ticker: RGP\nFiscal Qtr: 2\nEstimate EPS: 0.0168\nEst. Revenue: 125 M\nSource: Finnhub (non-GAAP)
-SUMMARY:RGP Earnings
-UID:69edd825-4e80-4522-9f35-554c4076279e@69ed.org
+UID:2f6719b9-5d67-4372-accf-c0b9133c6606@2f67.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251224
 DESCRIPTION:Ticker: ETO\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
 SUMMARY:ETO Earnings
-UID:b4488412-5db5-469d-9718-91d3f43287ff@b448.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251223
-DESCRIPTION:Ticker: CRZY\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CRZY Earnings
-UID:0eca3262-09d6-479b-a1dc-b713308cf6ea@0eca.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251229
-DESCRIPTION:Ticker: AVK\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:AVK Earnings
-UID:e89632ac-553e-4859-bd7f-592a5a7028c1@e896.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251225
-DESCRIPTION:Ticker: CCTG\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:CCTG Earnings
-UID:ab6382c5-ee21-4858-9210-fc73d4b51612@ab63.org
+UID:78ef5cbf-3fe6-4e20-873f-cfca24912bcc@78ef.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260101
-DESCRIPTION:Ticker: CTSO\nFiscal Qtr: 4\nEstimate EPS: -0.0102\nEst. Revenue: 11 M\nSource: Finnhub (non-GAAP)
-SUMMARY:CTSO Earnings
-UID:d6ed75d7-50a9-43c9-9415-9c51f8f710f8@d6ed.org
+DESCRIPTION:Ticker: ERC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ERC Earnings
+UID:c9d27f31-e0d3-4af7-a2ee-6831e0dff10f@c9d2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: NZF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NZF Earnings
+UID:d97f982b-8f7f-4ec1-834f-1c87723ca0a7@d97f.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251224
-DESCRIPTION:Ticker: EXG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
-SUMMARY:EXG Earnings
-UID:fb9cb4b2-4adc-41d7-acf8-a4a4eb8db353@fb9c.org
+DESCRIPTION:Ticker: JHI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:JHI Earnings
+UID:424d8fdb-e3a3-41c1-bda0-e751a9490609@424d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: NFLX\nFiscal Qtr: 4\nEstimate EPS: 0.5597\nEst. Revenue: 12.20 B\nSource: Finnhub (non-GAAP)
+SUMMARY:NFLX Earnings
+UID:b506656c-7aea-4b7e-8f83-c75a61ff6319@b506.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: YXT\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:YXT Earnings
+UID:63adc8f0-64db-4be2-a6ea-ed7ed335f3f6@63ad.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: CHN\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CHN Earnings
+UID:4647d97c-9a13-4c9d-938c-6197dab4960b@4647.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: ZION\nFiscal Qtr: 4\nEstimate EPS: 1.5953\nEst. Revenue: 879 M\nSource: Finnhub (non-GAAP)
+SUMMARY:ZION Earnings
+UID:0575be3c-8090-49c0-836b-f9e189f2e269@0575.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: OFED\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:OFED Earnings
+UID:7bd4dbb4-5ef4-47d0-a94f-55c56184fe29@7bd4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: ORMP\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ORMP Earnings
+UID:ed120332-2549-42f3-9625-7d58f378bd4b@ed12.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: AYI\nFiscal Qtr: 1\nEstimate EPS: 4.599\nEst. Revenue: 1.16 B\nSource: Finnhub (non-GAAP)
+SUMMARY:AYI Earnings
+UID:b7af5c8e-2eda-477f-80c7-99903ab964f1@b7af.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: FPH\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:FPH Earnings
+UID:a00ca83f-5aff-4849-9563-88aeb054bda5@a00c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: PFC\nFiscal Qtr: 4\nEstimate EPS: 0.5944\nEst. Revenue: 56 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PFC Earnings
+UID:19a142d7-9bc6-4133-9815-844012d0ea4d@19a1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: ETWO\nFiscal Qtr: 3\nEstimate EPS: 0.0459\nEst. Revenue: 155 M\nSource: Finnhub (non-GAAP)
+SUMMARY:ETWO Earnings
+UID:16f267ba-0baf-4eda-ac0d-3337d2aebdd3@16f2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: NYMXF\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NYMXF Earnings
+UID:6ca483be-8ae6-4da3-9f4f-9f701369bf98@6ca4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251231
+DESCRIPTION:Ticker: AXG\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AXG Earnings
+UID:2e1813b6-03a1-4b2a-9f74-7f414f1bb363@2e18.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: ENBP\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ENBP Earnings
+UID:bddd7804-5561-45fa-a7ce-a357987a8c53@bddd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: FBSI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:FBSI Earnings
+UID:c0fbb127-0f17-4894-b58a-0026bf7a40b9@c0fb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: VMAR\nFiscal Qtr: 1\nEstimate EPS: -2.3766\nEst. Revenue: 816000\nSource: Finnhub (non-GAAP)
+SUMMARY:VMAR Earnings
+UID:9f22da59-8c7b-40d5-8404-9f77cf0e7c22@9f22.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: WMPN\nFiscal Qtr: 2\nEstimate EPS: 0.0204\nEst. Revenue: 6 M\nSource: Finnhub (non-GAAP)
+SUMMARY:WMPN Earnings
+UID:7a88a42d-d3e0-4cba-9fe0-f09ff4fe8e01@7a88.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: UGRO\nFiscal Qtr: 1\nEstimate EPS: -0.1734\nEst. Revenue: 19 M\nSource: Finnhub (non-GAAP)
+SUMMARY:UGRO Earnings
+UID:46781285-6edc-4ce2-be6a-dbed2e039b75@4678.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: TPTW\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:TPTW Earnings
+UID:e589b492-3e98-41ae-9b99-aad1363426f9@e589.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: BFC\nFiscal Qtr: 4\nEstimate EPS: 1.8064\nEst. Revenue: 45 M\nSource: Finnhub (non-GAAP)
+SUMMARY:BFC Earnings
+UID:f3cc17af-9797-448a-88bd-3bc0294b99fa@f3cc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: DTGI\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:DTGI Earnings
+UID:23996da6-48a6-4ad1-a82c-3cc9a0b0a7c6@2399.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: AXIL\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AXIL Earnings
+UID:d162b4be-7341-4488-b457-8e8608e41dbd@d162.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: PSMT\nFiscal Qtr: 1\nEstimate EPS: 1.3804\nEst. Revenue: 1.38 B\nSource: Finnhub (non-GAAP)
+SUMMARY:PSMT Earnings
+UID:cb802f95-3eb4-4a3c-8f68-b02b920b52b8@cb80.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: BANF\nFiscal Qtr: 4\nEstimate EPS: 1.8221\nEst. Revenue: 177 M\nSource: Finnhub (non-GAAP)
+SUMMARY:BANF Earnings
+UID:8aa26bbe-e76e-4d0e-bb20-b0eccbc7e48c@8aa2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: GLGI\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:GLGI Earnings
+UID:60c196f1-5321-42cd-9377-37909a4839fe@60c1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: WKSP\nFiscal Qtr: 4\nEstimate EPS: -0.4029\nEst. Revenue: 9 M\nSource: Finnhub (non-GAAP)
+SUMMARY:WKSP Earnings
+UID:54c7abb9-a259-40be-af02-c1cf6954a20e@54c7.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251229
 DESCRIPTION:Ticker: NRT\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
 SUMMARY:NRT Earnings
-UID:d2d68b42-d383-4d18-852e-b20c34d190cf@d2d6.org
+UID:db70c79b-fce1-4abf-a492-c9f767fb1199@db70.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: OHCS\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:OHCS Earnings
+UID:f4b93ce9-320e-45ee-b8a9-a4e5d35094d1@f4b9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: RPM\nFiscal Qtr: 2\nEstimate EPS: 1.4384\nEst. Revenue: 1.95 B\nSource: Finnhub (non-GAAP)
+SUMMARY:RPM Earnings
+UID:34c494b0-fb80-48f9-b388-97b2734a77c4@34c4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: AONC\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AONC Earnings
+UID:ea1d0697-07b5-47ac-be41-e4af46718481@ea1d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: QEPC\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:QEPC Earnings
+UID:d0f7a536-3af7-47c9-91a2-cb806dbb108b@d0f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: STT\nFiscal Qtr: 4\nEstimate EPS: 2.8245\nEst. Revenue: 3.61 B\nSource: Finnhub (non-GAAP)
+SUMMARY:STT Earnings
+UID:2a06fd8c-dfb6-4711-a916-b053ea5a7c1b@2a06.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251230
+DESCRIPTION:Ticker: IMII\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:IMII Earnings
+UID:0e9a86a9-8de5-4f26-804f-8f4231bd26c7@0e9a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: MSM\nFiscal Qtr: 1\nEstimate EPS: 0.9622\nEst. Revenue: 973 M\nSource: Finnhub (non-GAAP)
+SUMMARY:MSM Earnings
+UID:51e484f6-7061-409a-a9ea-10b886de6614@51e4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: RDUS\nFiscal Qtr: 1\nEstimate EPS: -0.0102\nEst. Revenue: 763 M\nSource: Finnhub (non-GAAP)
+SUMMARY:RDUS Earnings
+UID:bbdce5fa-9377-4eef-9128-7727044f62cc@bbdc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: BOKF\nFiscal Qtr: 4\nEstimate EPS: 2.2114\nEst. Revenue: 562 M\nSource: Finnhub (non-GAAP)
+SUMMARY:BOKF Earnings
+UID:52b6db1f-1c10-4fd0-bd0f-a45ad9d0b762@52b6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: LNN\nFiscal Qtr: 1\nEstimate EPS: 1.4898\nEst. Revenue: 168 M\nSource: Finnhub (non-GAAP)
+SUMMARY:LNN Earnings
+UID:d671ca7a-e92a-4945-b5c7-5b4d84d955a3@d671.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: HWBK\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HWBK Earnings
+UID:4e872a1f-1f75-4018-bbb7-5361efa3844f@4e87.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: FAST\nFiscal Qtr: 4\nEstimate EPS: 0.2645\nEst. Revenue: 2.09 B\nSource: Finnhub (non-GAAP)
+SUMMARY:FAST Earnings
+UID:9ad8b681-0426-4b9e-8914-664f0100b526@9ad8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DESCRIPTION:Ticker: HTD\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HTD Earnings
+UID:dfaf9365-801e-4ad7-95c8-2ea80287d7eb@dfaf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: HELE\nFiscal Qtr: 3\nEstimate EPS: 1.7585\nEst. Revenue: 514 M\nSource: Finnhub (non-GAAP)
+SUMMARY:HELE Earnings
+UID:940840b0-7c90-4c66-99d2-107f691d2a5b@9408.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: FULT\nFiscal Qtr: 4\nEstimate EPS: 0.5131\nEst. Revenue: 284 M\nSource: Finnhub (non-GAAP)
+SUMMARY:FULT Earnings
+UID:4b342410-de49-482d-ab88-9a36905f13d8@4b34.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: FC\nFiscal Qtr: 1\nEstimate EPS: 0.085\nEst. Revenue: 67 M\nSource: Finnhub (non-GAAP)
+SUMMARY:FC Earnings
+UID:03abb26c-1a5b-46a2-95c3-7ca3e74dc207@03ab.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: HUIZ\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HUIZ Earnings
+UID:51f15cc8-6726-4c87-a08d-6fbce3de0ec3@51f1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: BLK\nFiscal Qtr: 4\nEstimate EPS: 12.8511\nEst. Revenue: 6.82 B\nSource: Finnhub (non-GAAP)
+SUMMARY:BLK Earnings
+UID:e48b2cf5-f782-4115-bc61-9abc6e682ebd@e48b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: ALNY\nFiscal Qtr: 4\nEstimate EPS: 1.2462\nEst. Revenue: 1.20 B\nSource: Finnhub (non-GAAP)
+SUMMARY:ALNY Earnings
+UID:0bf9cce9-e3d3-4ce1-bae7-b2fa2a39d2fd@0bf9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DESCRIPTION:Ticker: PDT\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PDT Earnings
+UID:cf6dbc41-cd72-4dcf-9130-32fed9ced12f@cf6d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: BZYR\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BZYR Earnings
+UID:ca2f4a36-8d00-4578-8173-83e71b6e8825@ca2f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: FRMO\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:FRMO Earnings
+UID:8fa70e0b-9b0f-4631-b480-a5f502990919@8fa7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: TXT\nFiscal Qtr: 4\nEstimate EPS: 1.7536\nEst. Revenue: 4.15 B\nSource: Finnhub (non-GAAP)
+SUMMARY:TXT Earnings
+UID:f2e8f1b6-4060-4028-8e81-385e4dbf3d00@f2e8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: CZNC\nFiscal Qtr: 4\nEstimate EPS: 0.4386\nEst. Revenue: 29 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CZNC Earnings
+UID:89180e0f-7f26-4a59-8d42-5f3d13f478c9@8918.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: HWC\nFiscal Qtr: 4\nEstimate EPS: 1.4825\nEst. Revenue: 395 M\nSource: Finnhub (non-GAAP)
+SUMMARY:HWC Earnings
+UID:a1d6e069-f237-4778-b849-b56c59887cf8@a1d6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: MAXN\nFiscal Qtr: 3\nEstimate EPS: -0.0102\nEst. Revenue: 248 M\nSource: Finnhub (non-GAAP)
+SUMMARY:MAXN Earnings
+UID:44207f06-ff8f-4f4c-a389-3dec6a008579@4420.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: TDY\nFiscal Qtr: 4\nEstimate EPS: 6.3462\nEst. Revenue: 1.67 B\nSource: Finnhub (non-GAAP)
+SUMMARY:TDY Earnings
+UID:b30fa23c-efba-4601-aa15-001cadb3291a@b30f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251230
+DESCRIPTION:Ticker: MMT\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:MMT Earnings
+UID:d90ec3ed-a6ca-4de9-bdc6-5f95c4982a53@d90e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DESCRIPTION:Ticker: AVRW\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AVRW Earnings
+UID:758ab843-d349-42a7-81bf-c33bbdf9083a@758a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251225
+DESCRIPTION:Ticker: CHW\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CHW Earnings
+UID:6f887d83-0271-4be7-8a28-f95adb08d1f9@6f88.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: EBF\nFiscal Qtr: 3\nEstimate EPS: 0.4141\nEst. Revenue: 102 M\nSource: Finnhub (non-GAAP)
+SUMMARY:EBF Earnings
+UID:5c5a1d4b-432f-45f7-b70a-b93d7ae19b09@5c5a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: JPM\nFiscal Qtr: 4\nEstimate EPS: 5\nEst. Revenue: 46.35 B\nSource: Finnhub (non-GAAP)
+SUMMARY:JPM Earnings
+UID:4e1bac1b-a0f0-4511-81c9-fa9117fffe69@4e1b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: LFCR\nFiscal Qtr: 2\nEstimate EPS: -0.1938\nEst. Revenue: 33 M\nSource: Finnhub (non-GAAP)
+SUMMARY:LFCR Earnings
+UID:4967c64d-9ac2-446b-ad7f-698c3006194d@4967.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: DHCC\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:DHCC Earnings
+UID:706835d2-087e-41c9-a1ae-3408211b1184@7068.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260109
+DESCRIPTION:Ticker: CNXX\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CNXX Earnings
+UID:cbfdf6e1-52e4-4644-8333-20a7ea7f286b@cbfd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: SMME\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:SMME Earnings
+UID:2bb57fef-f162-46dd-92a9-698f675260fd@2bb5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: NVG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NVG Earnings
+UID:63811916-6902-4963-93fd-7aaa8bef6fcd@6381.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: RMCF\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:RMCF Earnings
+UID:88d96862-7c57-4b50-bde7-168fb4a9df7a@88d9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: BDL\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BDL Earnings
+UID:ab34846b-7642-45db-981f-d0738454d2e9@ab34.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: EXEL\nFiscal Qtr: 4\nEstimate EPS: 0.7104\nEst. Revenue: 622 M\nSource: Finnhub (non-GAAP)
+SUMMARY:EXEL Earnings
+UID:7bb443f8-6c4c-4d56-8fea-fdd2ce4c26a6@7bb4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: MS\nFiscal Qtr: 4\nEstimate EPS: 2.4793\nEst. Revenue: 17.92 B\nSource: Finnhub (non-GAAP)
+SUMMARY:MS Earnings
+UID:5d9ecedd-59c6-4118-bef7-ac0d47b10987@5d9e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: OPI\nFiscal Qtr: 3\nEstimate EPS: -0.8282\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:OPI Earnings
+UID:0e60ccbb-cbde-4826-b3af-6eb865d8b0b5@0e60.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: AMTD\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AMTD Earnings
+UID:ff926b3d-c261-4ae3-926a-dccb2c966770@ff92.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: CLSH\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CLSH Earnings
+UID:ef6efd64-add8-4bd8-afc1-72578d6e1365@ef6e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: STZ\nFiscal Qtr: 3\nEstimate EPS: 2.6685\nEst. Revenue: 2.19 B\nSource: Finnhub (non-GAAP)
+SUMMARY:STZ Earnings
+UID:8acc0add-7349-4d8d-a565-908f62598f3a@8acc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: ACCD\nFiscal Qtr: 3\nEstimate EPS: -0.2696\nEst. Revenue: 124 M\nSource: Finnhub (non-GAAP)
+SUMMARY:ACCD Earnings
+UID:9b6ee573-8acc-48bc-8f56-5d1f8927cba1@9b6e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: AZI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AZI Earnings
+UID:6feaaac5-4307-4a04-aedf-c84acedc9c5b@6fea.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DESCRIPTION:Ticker: GTIM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:GTIM Earnings
+UID:e4611335-fd32-4d25-a924-7ec2ebecc0f5@e461.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20260113
 DESCRIPTION:Ticker: UNTY\nFiscal Qtr: 4\nEstimate EPS: 1.3838\nEst. Revenue: 34 M\nSource: Finnhub (non-GAAP)
 SUMMARY:UNTY Earnings
-UID:61a3461c-8452-4aea-85eb-f8573494fe11@61a3.org
+UID:864cebf0-f9f1-47d8-8111-07ec6e42db97@864c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: HIFS\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HIFS Earnings
+UID:42891b9b-70ba-423c-a09d-cac1b638644e@4289.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: AEHR\nFiscal Qtr: 2\nEstimate EPS: -0.0374\nEst. Revenue: 12 M\nSource: Finnhub (non-GAAP)
+SUMMARY:AEHR Earnings
+UID:3d6d01bf-bb54-4767-a0b9-0dc4954956e0@3d6d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: TAYD\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:TAYD Earnings
+UID:76366b4d-c6de-474e-9933-dd4ae6fb71a1@7636.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: CCD\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CCD Earnings
+UID:85c4f73c-10da-4edf-b2c9-c010c0b58dcb@85c4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: CNAF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CNAF Earnings
+UID:a0efcc42-d57e-4d7d-9eb6-cfc3a1d8173b@a0ef.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: PKE\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PKE Earnings
+UID:3de318bd-7737-4c5e-ab7a-c7615d6fb4f5@3de3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: SNTW\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:SNTW Earnings
+UID:4a07d02a-eac7-435d-98a6-18d2601d09c6@4a07.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: HRST\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HRST Earnings
+UID:9c0b5c47-4381-48cb-b75e-6d50e62229a2@9c0b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: OKYO\nFiscal Qtr: 2\nEstimate EPS: -0.0408\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:OKYO Earnings
+UID:ce813a49-2457-47c6-8d49-eede1a8620de@ce81.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: GRAL\nFiscal Qtr: 4\nEstimate EPS: -3.3082\nEst. Revenue: 43 M\nSource: Finnhub (non-GAAP)
+SUMMARY:GRAL Earnings
+UID:c308f89b-92c8-4b96-bdf9-11fcedc648b6@c308.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: DSNY\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:DSNY Earnings
+UID:be7867fc-33eb-479a-979f-77842dcef09a@be78.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: SLP\nFiscal Qtr: 1\nEstimate EPS: 0.1313\nEst. Revenue: 18 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SLP Earnings
+UID:e063cb96-3234-465c-aa84-98c07e85dac3@e063.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: BOID\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BOID Earnings
+UID:497cb423-9c71-4d06-bfdd-79f2993cc8ce@497c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: BRW\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BRW Earnings
+UID:b12040c6-bc4a-43e1-8812-e38555ce6a93@b120.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: SRL\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:SRL Earnings
+UID:3f6e546e-24f5-4010-b787-1f453ff72fb3@3f6e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: CNXC\nFiscal Qtr: 4\nEstimate EPS: 2.9682\nEst. Revenue: 2.59 B\nSource: Finnhub (non-GAAP)
+SUMMARY:CNXC Earnings
+UID:5a096d57-96ea-4f8e-baba-d271dc87869a@5a09.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: SOTK\nFiscal Qtr: 3\nEstimate EPS: 0.0255\nEst. Revenue: 5 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SOTK Earnings
+UID:488d9492-15c7-44b7-9605-f5b47992edef@488d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: CNBX\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CNBX Earnings
+UID:628fee8b-a142-45eb-b95c-f445e0609e57@628f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251231
+DESCRIPTION:Ticker: PHLT\nFiscal Qtr: 3\nEstimate EPS: -0.0136\nEst. Revenue: 34 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PHLT Earnings
+UID:96a5ad6f-7f71-4454-adee-ab0373e1e301@96a5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: HOVR\nFiscal Qtr: 2\nEstimate EPS: -0.0951\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HOVR Earnings
+UID:f0906ed4-03f4-41a6-a124-62feda3a886f@f090.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: EDUC\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EDUC Earnings
+UID:c20003b6-0bac-4b67-91d6-bf309abb397f@c200.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: RDDT\nFiscal Qtr: 4\nEstimate EPS: 0.9422\nEst. Revenue: 679 M\nSource: Finnhub (non-GAAP)
+SUMMARY:RDDT Earnings
+UID:a619dfe6-a9c6-4089-b6f6-483926bc036c@a619.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DESCRIPTION:Ticker: LMNR\nFiscal Qtr: 4\nEstimate EPS: -0.1088\nEst. Revenue: 37 M\nSource: Finnhub (non-GAAP)
+SUMMARY:LMNR Earnings
+UID:64bc4f08-a2f1-4f90-8816-abbdf0983184@64bc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DESCRIPTION:Ticker: SNTG\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:SNTG Earnings
+UID:c250d455-c822-46c3-aa06-d4fc4d836081@c250.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: AUSI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AUSI Earnings
+UID:27cce9f3-fc2b-4534-b9dc-6b07dcf8a72d@27cc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: CTSO\nFiscal Qtr: 4\nEstimate EPS: -0.0102\nEst. Revenue: 11 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CTSO Earnings
+UID:29f9a4ac-7d87-48ff-b02e-fda8d11afc9d@29f9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: APLD\nFiscal Qtr: 2\nEstimate EPS: -0.0986\nEst. Revenue: 89 M\nSource: Finnhub (non-GAAP)
+SUMMARY:APLD Earnings
+UID:c3ad1756-8afb-4ae0-a0e5-b4cbeb354ebf@c3ad.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: CTKB\nFiscal Qtr: 4\nEstimate EPS: -0.0332\nEst. Revenue: 58 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CTKB Earnings
+UID:18d3d238-72c0-4b2a-acf2-ab76a9a61d8a@18d3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: CETX\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CETX Earnings
+UID:4966322b-43d6-418e-b175-9d707e63ca60@4966.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: KNIT\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:KNIT Earnings
+UID:7ea1099f-9fe8-4595-a30e-9aafc0df2d82@7ea1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: BK\nFiscal Qtr: 4\nEstimate EPS: 2.0502\nEst. Revenue: 5.26 B\nSource: Finnhub (non-GAAP)
+SUMMARY:BK Earnings
+UID:41aac2ae-b47d-4758-83f5-c58a13e0ad9e@41aa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260109
+DESCRIPTION:Ticker: AOD\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AOD Earnings
+UID:39ddf052-e5fc-4261-a08e-38568a33c0c9@39dd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: YGMZ\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:YGMZ Earnings
+UID:df4711f3-e8ee-4c05-a628-7793f3548f9b@df47.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: NAMI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NAMI Earnings
+UID:42786cb6-610d-4948-bce2-0acf22d09a4f@4278.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DESCRIPTION:Ticker: EXG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EXG Earnings
+UID:59194aa3-fef1-4dfc-bcae-4cc314988fb5@5919.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: JBHT\nFiscal Qtr: 4\nEstimate EPS: 1.8157\nEst. Revenue: 3.16 B\nSource: Finnhub (non-GAAP)
+SUMMARY:JBHT Earnings
+UID:67203f8c-ab41-4792-a224-ab090c7aae56@6720.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: CRKN\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CRKN Earnings
+UID:5a46169f-d674-47c5-9dda-458295832a9e@5a46.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: TTNP\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:TTNP Earnings
+UID:9017641a-6ff9-43b6-9b66-ea3db950601f@9017.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: ANVI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ANVI Earnings
+UID:dc8c224f-b3ab-48ad-b76a-90261e056ed3@dc8c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: KNX\nFiscal Qtr: 4\nEstimate EPS: 0.3707\nEst. Revenue: 1.92 B\nSource: Finnhub (non-GAAP)
+SUMMARY:KNX Earnings
+UID:a84870a4-2696-460b-a15a-fe1e0f01f579@a848.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: TLRY\nFiscal Qtr: 2\nEstimate EPS: -0.204\nEst. Revenue: 215 M\nSource: Finnhub (non-GAAP)
+SUMMARY:TLRY Earnings
+UID:25c408f0-9634-4462-ba21-950c15f45168@25c4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: TRX\nFiscal Qtr: 1\nEstimate EPS: 0.0253\nEst. Revenue: 25 M\nSource: Finnhub (non-GAAP)
+SUMMARY:TRX Earnings
+UID:2c6117a7-d3f9-4b94-9a9d-55dbc931e6fa@2c61.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: IBKR\nFiscal Qtr: 4\nEstimate EPS: 0.5816\nEst. Revenue: 1.62 B\nSource: Finnhub (non-GAAP)
+SUMMARY:IBKR Earnings
+UID:d7090790-adb5-4040-a947-e9bf48a3aa5b@d709.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: OZK\nFiscal Qtr: 4\nEstimate EPS: 1.566\nEst. Revenue: 439 M\nSource: Finnhub (non-GAAP)
+SUMMARY:OZK Earnings
+UID:15dc03af-e56f-453b-9f9e-06a3596c38a7@15dc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: RELL\nFiscal Qtr: 2\nEstimate EPS: -0.0102\nEst. Revenue: 51 M\nSource: Finnhub (non-GAAP)
+SUMMARY:RELL Earnings
+UID:a235745f-31e1-461a-acac-c6e53664d231@a235.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: SPPL\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:SPPL Earnings
+UID:136f894c-4536-4192-9f2a-d6088bf8a62c@136f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: BIORQ\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BIORQ Earnings
+UID:244426b1-a299-4d42-977d-a112415e8512@2444.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: LQWC\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:LQWC Earnings
+UID:76f31dcd-1960-4074-947d-f7fb0f97ae61@76f3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: IIIN\nFiscal Qtr: 1\nEstimate EPS: 0.3825\nEst. Revenue: 165 M\nSource: Finnhub (non-GAAP)
+SUMMARY:IIIN Earnings
+UID:73a3e13f-f575-4570-a245-856433d36fdc@73a3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: NGTF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NGTF Earnings
+UID:30c16973-e7f4-4711-b9df-55fcd8ff9adc@30c1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: BAC\nFiscal Qtr: 4\nEstimate EPS: 0.9754\nEst. Revenue: 27.86 B\nSource: Finnhub (non-GAAP)
+SUMMARY:BAC Earnings
+UID:2f21879a-ffb6-4584-875f-d688bc71d376@2f21.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251230
+DESCRIPTION:Ticker: ELLO\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ELLO Earnings
+UID:159e41ef-ee02-4fa4-a6c6-07a6d366c90c@159e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: VRNA\nFiscal Qtr: 4\nEstimate EPS: 0.1904\nEst. Revenue: 131 M\nSource: Finnhub (non-GAAP)
+SUMMARY:VRNA Earnings
+UID:cae3dce5-692f-465b-84ee-8e5bcc0acfd2@cae3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: RVCB\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:RVCB Earnings
+UID:1a7d3d97-388c-4eec-b949-38073df9377c@1a7d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: APOG\nFiscal Qtr: 3\nEstimate EPS: 1.0379\nEst. Revenue: 361 M\nSource: Finnhub (non-GAAP)
+SUMMARY:APOG Earnings
+UID:eeddb5e8-f8d5-4847-9eb7-0c84651234e3@eedd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260106
+DESCRIPTION:Ticker: SAR\nFiscal Qtr: 3\nEstimate EPS: 0.6032\nEst. Revenue: 32 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SAR Earnings
+UID:aa765233-18c8-40b4-ac7e-455786c40bfc@aa76.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: NEA\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NEA Earnings
+UID:e4112280-477a-4899-8d80-29a2a721487d@e411.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: MHI\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:MHI Earnings
+UID:d6e6e34a-d452-41c7-8df7-1960f3885a76@d6e6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: EMKR\nFiscal Qtr: 4\nEstimate EPS: -0.0408\nEst. Revenue: 26 M\nSource: Finnhub (non-GAAP)
+SUMMARY:EMKR Earnings
+UID:c29fd20c-3529-4dbc-8079-60d80e6298fb@c29f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: CBIH\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CBIH Earnings
+UID:0b563ebe-95fa-4e29-a531-a024acd9158a@0b56.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: DHI\nFiscal Qtr: 1\nEstimate EPS: 1.9659\nEst. Revenue: 6.71 B\nSource: Finnhub (non-GAAP)
+SUMMARY:DHI Earnings
+UID:dcd56586-740a-436f-b6dc-7ec5db9bcc5f@dcd5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DESCRIPTION:Ticker: MCRAA\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:MCRAA Earnings
+UID:d82cc86e-0866-4b50-9801-2d581b7081f4@d82c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: ENGN\nFiscal Qtr: 4\nEstimate EPS: -0.5796\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ENGN Earnings
+UID:eab2c769-c1d0-4919-ae0a-fd97d84e4c10@eab2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: IMTE\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:IMTE Earnings
+UID:6292602d-f8fd-4a31-a67e-1f9fe42e73a8@6292.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: EDU\nFiscal Qtr: 2\nEstimate EPS: 0.3349\nEst. Revenue: 1.17 B\nSource: Finnhub (non-GAAP)
+SUMMARY:EDU Earnings
+UID:9902dd14-d511-4ada-a983-5b3fef69f0db@9902.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: MCB\nFiscal Qtr: 4\nEstimate EPS: 2.0907\nEst. Revenue: 84 M\nSource: Finnhub (non-GAAP)
+SUMMARY:MCB Earnings
+UID:33b1a317-b4ed-4919-9089-8a40fd088ffa@33b1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: FUL\nFiscal Qtr: 4\nEstimate EPS: 1.2396\nEst. Revenue: 912 M\nSource: Finnhub (non-GAAP)
+SUMMARY:FUL Earnings
+UID:9283d7be-4ed4-4de8-8b09-98270d97db7c@9283.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: FAX\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:FAX Earnings
+UID:fb4ca9c4-193c-4a5a-8c77-73819937b5b3@fb4c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: BTSG\nFiscal Qtr: 4\nEstimate EPS: 0.3554\nEst. Revenue: 3.45 B\nSource: Finnhub (non-GAAP)
+SUMMARY:BTSG Earnings
+UID:1c54bbb9-b0e7-4ffa-878b-56645c106e2f@1c54.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: CCBC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CCBC Earnings
+UID:f8a67a85-c1d1-4e27-ac69-f5f88cec5db1@f8a6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: SIFY\nFiscal Qtr: 3\nEstimate EPS: 0\nEst. Revenue: 175 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SIFY Earnings
+UID:18793352-2111-403f-b568-166d582d9057@1879.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: ENSV\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ENSV Earnings
+UID:2e131054-eb8a-402b-9df5-190177a3dbb4@2e13.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: RILY\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:RILY Earnings
+UID:e538f877-4daa-4f5b-9983-8061a476cdb0@e538.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: LIN\nFiscal Qtr: 4\nEstimate EPS: 4.2165\nEst. Revenue: 8.73 B\nSource: Finnhub (non-GAAP)
+SUMMARY:LIN Earnings
+UID:802a56f9-b885-4f2a-9d72-8178a99ca615@802a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: NAD\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NAD Earnings
+UID:cc323087-84f0-4cd3-a415-2f5e6266addf@cc32.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: RFIL\nFiscal Qtr: 4\nEstimate EPS: 0.0918\nEst. Revenue: 20 M\nSource: Finnhub (non-GAAP)
+SUMMARY:RFIL Earnings
+UID:b38d9013-341b-4c64-9416-7676c369635d@b38d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: OVLY\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:OVLY Earnings
+UID:f4c3f89c-02d1-4f66-b45b-0711071b213e@f4c3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: FBK\nFiscal Qtr: 4\nEstimate EPS: 1.1254\nEst. Revenue: 178 M\nSource: Finnhub (non-GAAP)
+SUMMARY:FBK Earnings
+UID:44873654-8059-4d6d-a704-251129c584ed@4487.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251225
+DESCRIPTION:Ticker: CCTG\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CCTG Earnings
+UID:5bc061d8-8dc5-4efc-a368-f045e040de1d@5bc0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: EGY\nFiscal Qtr: 4\nEstimate EPS: -0.0101\nEst. Revenue: 77 M\nSource: Finnhub (non-GAAP)
+SUMMARY:EGY Earnings
+UID:6e2e0896-8d4c-41e5-afa4-da64860868cb@6e2e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: DFS\nFiscal Qtr: 4\nEstimate EPS: 3.5767\nEst. Revenue: 4.54 B\nSource: Finnhub (non-GAAP)
+SUMMARY:DFS Earnings
+UID:3eb0f042-e4ae-490f-92e6-c521cd489e00@3eb0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: SRAX\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:SRAX Earnings
+UID:715c7cc5-a88a-4c41-8870-af4a6e5dcac9@715c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251231
+DESCRIPTION:Ticker: FDCT\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:FDCT Earnings
+UID:2d5765f0-f6de-4ac9-bfc0-53cf780cbe93@2d57.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: RJDG\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:RJDG Earnings
+UID:518e1962-2c81-4819-977a-0e798e54a54a@518e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: WNDW\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:WNDW Earnings
+UID:45ddeb76-6fbf-4275-aff7-6c7d572f63fa@45dd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: FOR\nFiscal Qtr: 1\nEstimate EPS: 0.3199\nEst. Revenue: 264 M\nSource: Finnhub (non-GAAP)
+SUMMARY:FOR Earnings
+UID:0fb5c6cc-fb58-41de-adfa-8e66737d861f@0fb5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: AAPI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AAPI Earnings
+UID:9edd24bd-c398-448b-8770-a9c01a3a5110@9edd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: PEBC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PEBC Earnings
+UID:950ecf4b-d3e8-4b82-9fc2-ddf870c49e59@950e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: USB\nFiscal Qtr: 4\nEstimate EPS: 1.1909\nEst. Revenue: 7.36 B\nSource: Finnhub (non-GAAP)
+SUMMARY:USB Earnings
+UID:f5a1965f-fc37-4b5d-9078-36cb0b67c43b@f5a1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: PPG\nFiscal Qtr: 4\nEstimate EPS: 1.6027\nEst. Revenue: 3.82 B\nSource: Finnhub (non-GAAP)
+SUMMARY:PPG Earnings
+UID:ba8a9160-500b-447e-b46f-a0fd7671106b@ba8a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: ANIX\nFiscal Qtr: 4\nEstimate EPS: -0.0893\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ANIX Earnings
+UID:18d10be8-6882-4156-9d8d-d84c6d91226c@18d1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: WRIV\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:WRIV Earnings
+UID:985eaffc-39d9-40f4-bbdd-db79957f34b5@985e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260109
+DESCRIPTION:Ticker: OAKU\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:OAKU Earnings
+UID:7dca3b67-631d-4177-8583-a02d7c9bd801@7dca.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: NXEN\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NXEN Earnings
+UID:308c34e9-9139-4b8c-a475-7a7eba08ab11@308c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: BKSC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BKSC Earnings
+UID:ef93152b-77a2-46a0-ab40-a8bb4e7badab@ef93.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: WDFC\nFiscal Qtr: 1\nEstimate EPS: 1.4754\nEst. Revenue: 158 M\nSource: Finnhub (non-GAAP)
+SUMMARY:WDFC Earnings
+UID:02df869b-d44b-447f-8920-36352a558189@02df.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: LIMX\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:LIMX Earnings
+UID:c03bda0d-d5b1-407b-88f4-95d1e114ee0b@c03b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: DJCO\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:DJCO Earnings
+UID:b45ec99a-d74a-4c6e-8022-9ce405b7bdc7@b45e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: UCB\nFiscal Qtr: 4\nEstimate EPS: 0.7194\nEst. Revenue: 276 M\nSource: Finnhub (non-GAAP)
+SUMMARY:UCB Earnings
+UID:5085cf52-7ffa-4611-a143-e71d7327e2eb@5085.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DESCRIPTION:Ticker: CRZY\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CRZY Earnings
+UID:9ce081a7-acfc-4dc6-8982-3a805f452697@9ce0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: ABT\nFiscal Qtr: 4\nEstimate EPS: 1.5119\nEst. Revenue: 11.92 B\nSource: Finnhub (non-GAAP)
+SUMMARY:ABT Earnings
+UID:e052dc3d-9236-4b5c-a519-e2a0d619369b@e052.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: CHI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CHI Earnings
+UID:52fa6ff9-79b9-4f11-9161-3a1a8585421a@52fa.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: PCMC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PCMC Earnings
+UID:fee44028-6fc2-409b-98b9-136505bb7563@fee4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: SOPH\nFiscal Qtr: 4\nEstimate EPS: -0.2346\nEst. Revenue: 21 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SOPH Earnings
+UID:da70e49a-3484-421c-be05-690bbe24bf99@da70.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: FITB\nFiscal Qtr: 4\nEstimate EPS: 1.0171\nEst. Revenue: 2.45 B\nSource: Finnhub (non-GAAP)
+SUMMARY:FITB Earnings
+UID:a7bd5498-6140-4fe5-b592-ab04f58556a3@a7bd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: MTB\nFiscal Qtr: 4\nEstimate EPS: 4.5253\nEst. Revenue: 2.50 B\nSource: Finnhub (non-GAAP)
+SUMMARY:MTB Earnings
+UID:51166d4d-4168-40b8-a5a7-16c5e7ecc5a5@5116.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251230
+DESCRIPTION:Ticker: EDXC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EDXC Earnings
+UID:2e19ef13-b19b-4e66-a896-e80584a90d2f@2e19.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: GTPS\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:GTPS Earnings
+UID:66ed68ed-4afe-45b3-b0b8-2466dd79122a@66ed.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260106
+DESCRIPTION:Ticker: CHSCP\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CHSCP Earnings
+UID:94a63b87-0406-4e90-8c0e-70196e4c852d@94a6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: JCTC\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:JCTC Earnings
+UID:8354b9e2-9001-4f2b-8191-a617d0901390@8354.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: SMPL\nFiscal Qtr: 1\nEstimate EPS: 0.363\nEst. Revenue: 346 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SMPL Earnings
+UID:8fa16b3e-129a-4810-bdf2-a5833ecd2ce7@8fa1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260106
+DESCRIPTION:Ticker: AIR\nFiscal Qtr: 2\nEstimate EPS: 1.0487\nEst. Revenue: 769 M\nSource: Finnhub (non-GAAP)
+SUMMARY:AIR Earnings
+UID:9c1f47e7-3fe7-4935-a5ef-d6297e97f58a@9c1f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: ATON\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ATON Earnings
+UID:529af8b4-8d39-41ab-b27b-ba9afd27d4ba@529a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: CVGW\nFiscal Qtr: 4\nEstimate EPS: 0.3876\nEst. Revenue: 157 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CVGW Earnings
+UID:446caf93-551b-4289-bae5-7e5f74bad3d9@446c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: KISB\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:KISB Earnings
+UID:0ea09db3-ffcc-490e-8653-e00308afd989@0ea0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: ICCT\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ICCT Earnings
+UID:78e54770-69db-4340-9ffc-676ee724d8d6@78e5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: PBPB\nFiscal Qtr: 3\nEstimate EPS: 0.0842\nEst. Revenue: 122 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PBPB Earnings
+UID:52ebe085-1a16-4d35-8b79-0d0ac9f69418@52eb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: FPF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:FPF Earnings
+UID:5b54dfc1-5449-4ecf-9ef2-386c860ed67c@5b54.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: HOMB\nFiscal Qtr: 4\nEstimate EPS: 0.611\nEst. Revenue: 278 M\nSource: Finnhub (non-GAAP)
+SUMMARY:HOMB Earnings
+UID:9ddaa366-22b0-424c-ab3b-cb808478e1a9@9dda.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: IAF\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:IAF Earnings
+UID:995dd879-51e0-4836-8205-d14c4bb940d8@995d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: NFTM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NFTM Earnings
+UID:780cf542-0d1c-414c-9f91-c29b8f923560@780c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DESCRIPTION:Ticker: CTOR\nFiscal Qtr: 4\nEstimate EPS: -0.1224\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CTOR Earnings
+UID:9e9bb808-1dde-4612-b8fa-dfa01dce4860@9e9b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: LEXX\nFiscal Qtr: 1\nEstimate EPS: -0.1734\nEst. Revenue: 102000\nSource: Finnhub (non-GAAP)
+SUMMARY:LEXX Earnings
+UID:95de0723-0e21-4a14-bab6-acd2aa166a91@95de.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: CHNR\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CHNR Earnings
+UID:553dd7d2-fc0e-49f0-a950-b7db3a89c830@553d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: WABC\nFiscal Qtr: 4\nEstimate EPS: 1.0863\nEst. Revenue: 63 M\nSource: Finnhub (non-GAAP)
+SUMMARY:WABC Earnings
+UID:8a30c50a-6378-4c3b-9729-8ddad070bf73@8a30.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: WBA\nFiscal Qtr: 1\nEstimate EPS: 0.4545\nEst. Revenue: 39.11 B\nSource: Finnhub (non-GAAP)
+SUMMARY:WBA Earnings
+UID:6e5b1a8e-c1ec-40c3-914b-e6ff9df449c9@6e5b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: RYES\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:RYES Earnings
+UID:f52c4891-8859-48e5-bde3-39cea3590d76@f52c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: FHN\nFiscal Qtr: 4\nEstimate EPS: 0.4626\nEst. Revenue: 867 M\nSource: Finnhub (non-GAAP)
+SUMMARY:FHN Earnings
+UID:ed175262-c73e-4e62-94ee-bd09fc232e51@ed17.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: AVK\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AVK Earnings
+UID:70f35962-82f5-4860-8061-5e48d042adf2@70f3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: NUV\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NUV Earnings
+UID:159d10f6-07ff-48b8-aeb2-99e9c5d531e6@159d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: MALG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:MALG Earnings
+UID:32ec812f-4dd7-4e5b-bb81-a4ff8f834436@32ec.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: NFBK\nFiscal Qtr: 4\nEstimate EPS: 0.2856\nEst. Revenue: 36 M\nSource: Finnhub (non-GAAP)
+SUMMARY:NFBK Earnings
+UID:56df0453-d255-4ee4-a6f4-950c085096d2@56df.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: CNBB\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CNBB Earnings
+UID:8469ce3e-36d3-4a46-9e2f-5118637f0961@8469.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: NTIC\nFiscal Qtr: 1\nEstimate EPS: 0.051\nEst. Revenue: 21 M\nSource: Finnhub (non-GAAP)
+SUMMARY:NTIC Earnings
+UID:bda1107f-670f-4fec-9a30-b065ee3d4b54@bda1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DESCRIPTION:Ticker: IBAC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:IBAC Earnings
+UID:d23d359e-10f3-41a2-b7dd-a8ddf4391cfc@d23d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: MBWM\nFiscal Qtr: 4\nEstimate EPS: 1.359\nEst. Revenue: 63 M\nSource: Finnhub (non-GAAP)
+SUMMARY:MBWM Earnings
+UID:81f76fc6-49bf-438c-aaa0-0afab70424ab@81f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: NTRP\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NTRP Earnings
+UID:dd791a91-de33-45ea-86d5-d5c4efca31bf@dd79.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: PNC\nFiscal Qtr: 4\nEstimate EPS: 4.2175\nEst. Revenue: 5.97 B\nSource: Finnhub (non-GAAP)
+SUMMARY:PNC Earnings
+UID:93f9e87d-5124-41f2-804c-a6bb59234921@93f9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: RF\nFiscal Qtr: 4\nEstimate EPS: 0.6341\nEst. Revenue: 2.00 B\nSource: Finnhub (non-GAAP)
+SUMMARY:RF Earnings
+UID:c63c5c59-81fa-4251-b1a2-ca30cac835f2@c63c.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: KNDI\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:KNDI Earnings
+UID:6421b3c6-541e-4104-b821-384998544e00@6421.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: BMRA\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BMRA Earnings
+UID:7c6a01a8-4e0c-4b35-85a2-dd9457ed152d@7c6a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: SNX\nFiscal Qtr: 4\nEstimate EPS: 3.7663\nEst. Revenue: 17.10 B\nSource: Finnhub (non-GAAP)
+SUMMARY:SNX Earnings
+UID:c581dcbc-36fe-4f64-922f-a3ca1d5e4dd3@c581.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: KUKE\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:KUKE Earnings
+UID:fcd0a440-3b34-404e-afe0-fa06494c5304@fcd0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260105
+DESCRIPTION:Ticker: OM\nFiscal Qtr: 4\nEstimate EPS: -0.6644\nEst. Revenue: 27 M\nSource: Finnhub (non-GAAP)
+SUMMARY:OM Earnings
+UID:d6ce26f7-5fa4-4f84-80cd-a4ed923756ef@d6ce.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: SRCE\nFiscal Qtr: 4\nEstimate EPS: 1.6415\nEst. Revenue: 113 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SRCE Earnings
+UID:e3f92c39-311b-4054-91dd-f84247ff094b@e3f9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+DESCRIPTION:Ticker: PUCK\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PUCK Earnings
+UID:51677752-33b6-48ae-910f-1147b2bd186d@5167.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: TRSG\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:TRSG Earnings
+UID:e1ae83dc-8e04-41cb-95ba-b9897ecd6ead@e1ae.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: PIKM\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PIKM Earnings
+UID:4cb10da0-0789-4c33-a565-551919527e80@4cb1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DESCRIPTION:Ticker: DFPH\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:DFPH Earnings
+UID:b51d7a14-a280-448c-9dda-a3f7d29fa3b6@b51d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: WALD\nFiscal Qtr: 4\nEstimate EPS: -0.0867\nEst. Revenue: 76 M\nSource: Finnhub (non-GAAP)
+SUMMARY:WALD Earnings
+UID:b1309b2c-f521-4ec9-85a9-a57bd84eac84@b130.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: KRUS\nFiscal Qtr: 1\nEstimate EPS: -0.1478\nEst. Revenue: 74 M\nSource: Finnhub (non-GAAP)
+SUMMARY:KRUS Earnings
+UID:08a56ab2-d922-4990-90f8-3e329b23da61@08a5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: KITL\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:KITL Earnings
+UID:a8424ec3-753c-4aad-a902-02a4ee372236@a842.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: PBLA\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PBLA Earnings
+UID:624bc539-d744-4b31-b5ed-aabd4f083abe@624b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: CVM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CVM Earnings
+UID:1a69be4b-2891-480e-ada9-80ac70244183@1a69.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: TCBI\nFiscal Qtr: 4\nEstimate EPS: 1.8151\nEst. Revenue: 332 M\nSource: Finnhub (non-GAAP)
+SUMMARY:TCBI Earnings
+UID:a064d108-1eac-4c8d-806e-5a44fbc2e4fb@a064.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: KEY\nFiscal Qtr: 4\nEstimate EPS: 0.3892\nEst. Revenue: 1.96 B\nSource: Finnhub (non-GAAP)
+SUMMARY:KEY Earnings
+UID:ab219fc8-6c8b-44d7-8c60-5c65fcf3b53d@ab21.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: HEOL\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HEOL Earnings
+UID:4a58631d-0287-453a-9d5b-d179ad7d3cfa@4a58.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: KARX\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:KARX Earnings
+UID:1364c590-39cb-4200-a6ea-de62076798af@1364.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: PNFP\nFiscal Qtr: 4\nEstimate EPS: 2.2432\nEst. Revenue: 559 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PNFP Earnings
+UID:cadbc16b-63dd-4a63-98fc-80afe2ca999a@cadb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: STME\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:STME Earnings
+UID:cf04e1d6-4165-455d-bf40-25996891be98@cf04.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: CPKF\nFiscal Qtr: 4\nEstimate EPS: 0.8364\nEst. Revenue: 21 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CPKF Earnings
+UID:b1021200-2cf6-42ec-8016-19c63111d9ce@b102.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: CTXR\nFiscal Qtr: 4\nEstimate EPS: -0.4964\nEst. Revenue: 6 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CTXR Earnings
+UID:e0d65c25-35b8-4de4-a5e2-040ede73006a@e0d6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: PCYO\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PCYO Earnings
+UID:8bff9f84-759e-4b1a-b905-4f45e2fbe1da@8bff.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: EVT\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EVT Earnings
+UID:94f7ee01-f795-44eb-8ea4-ba6648988708@94f7.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: AMBK\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AMBK Earnings
+UID:baad074e-ca23-452b-a96d-bdea8786cd41@baad.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: NYMXF\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NYMXF Earnings
+UID:4a030837-669b-410d-be76-dea2adfaf8f3@4a03.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: IH\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:IH Earnings
+UID:da46ad46-74d8-4d89-885e-0aadf6716d86@da46.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: GS\nFiscal Qtr: 4\nEstimate EPS: 14.2501\nEst. Revenue: 15.70 B\nSource: Finnhub (non-GAAP)
+SUMMARY:GS Earnings
+UID:9dc44810-f520-4483-999f-cbbf1b190a1c@9dc4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260116
+DESCRIPTION:Ticker: EVOH\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EVOH Earnings
+UID:7d3a5543-e058-4e6c-a090-89817a4bafbb@7d3a.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: BMXI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:BMXI Earnings
+UID:6ff293cb-6b2b-451e-84bb-891d09a9e4c9@6ff2.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: GNTY\nFiscal Qtr: 4\nEstimate EPS: 0.867\nEst. Revenue: 34 M\nSource: Finnhub (non-GAAP)
+SUMMARY:GNTY Earnings
+UID:2805a594-79d2-45e4-8eb9-5a9ecaa3bbd3@2805.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: MYGN\nFiscal Qtr: 4\nEstimate EPS: -0.0108\nEst. Revenue: 211 M\nSource: Finnhub (non-GAAP)
+SUMMARY:MYGN Earnings
+UID:b5a31e27-3266-4e6e-826b-5ca5a16b6c6c@b5a3.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: SFNC\nFiscal Qtr: 4\nEstimate EPS: 0.4981\nEst. Revenue: 245 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SFNC Earnings
+UID:ab194735-dac3-42f7-b38f-4eb59896d8f5@ab19.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: GHG\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:GHG Earnings
+UID:350029f8-1acc-49d6-9e82-47c3f9f1dae5@3500.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: CBSH\nFiscal Qtr: 4\nEstimate EPS: 1.0198\nEst. Revenue: 451 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CBSH Earnings
+UID:e7b9dde1-2f69-4e4f-808c-b7b6ca8c6040@e7b9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: NGTF\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NGTF Earnings
+UID:450e08ac-e2cf-4113-bedb-4b5fb2080fbe@450e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: DAL\nFiscal Qtr: 4\nEstimate EPS: 1.5935\nEst. Revenue: 14.91 B\nSource: Finnhub (non-GAAP)
+SUMMARY:DAL Earnings
+UID:f56d6978-436c-4070-a117-df1cb3d39340@f56d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: RGP\nFiscal Qtr: 2\nEstimate EPS: 0.0168\nEst. Revenue: 125 M\nSource: Finnhub (non-GAAP)
+SUMMARY:RGP Earnings
+UID:11b5b631-68e7-44a5-bdaf-8c9c63e98d72@11b5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: SIBN\nFiscal Qtr: 4\nEstimate EPS: -0.1064\nEst. Revenue: 66 M\nSource: Finnhub (non-GAAP)
+SUMMARY:SIBN Earnings
+UID:8d2370ad-8526-4025-84dc-4cc27b827089@8d23.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: AFB\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AFB Earnings
+UID:d856350f-43e1-4227-b770-4edeff99cfb6@d856.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260102
+DESCRIPTION:Ticker: HURC\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HURC Earnings
+UID:817b11d4-170f-4478-ad7c-93356f01299e@817b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: HQL\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HQL Earnings
+UID:fe84d7a8-6ce3-4dae-83a0-a17e85cc7a63@fe84.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: PEBO\nFiscal Qtr: 4\nEstimate EPS: 0.8932\nEst. Revenue: 120 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PEBO Earnings
+UID:d229830d-3f92-4a3a-971c-eef3d73a255d@d229.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: WAFD\nFiscal Qtr: 1\nEstimate EPS: 0.7681\nEst. Revenue: 192 M\nSource: Finnhub (non-GAAP)
+SUMMARY:WAFD Earnings
+UID:73370ba2-ba8c-41a8-83b0-07036ff51516@7337.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+DESCRIPTION:Ticker: CALM\nFiscal Qtr: 2\nEstimate EPS: 2.0604\nEst. Revenue: 857 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CALM Earnings
+UID:be3e9fd9-4d23-443b-8b48-3be7c65fadf6@be3e.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: ACAN\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ACAN Earnings
+UID:2e6114e2-3725-4302-89f2-5b7cd02357db@2e61.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251222
+DESCRIPTION:Ticker: HEI\nFiscal Qtr: 4\nEstimate EPS: 1.2638\nEst. Revenue: 1.21 B\nSource: Finnhub (non-GAAP)
+SUMMARY:HEI Earnings
+UID:723b84ee-9413-4d4a-8805-5bfd349dea15@723b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: NEOG\nFiscal Qtr: 2\nEstimate EPS: 0.0561\nEst. Revenue: 212 M\nSource: Finnhub (non-GAAP)
+SUMMARY:NEOG Earnings
+UID:e743dabc-4d94-4c91-bb5f-6a1dc4f0ab65@e743.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: GBX\nFiscal Qtr: 1\nEstimate EPS: 0.7743\nEst. Revenue: 611 M\nSource: Finnhub (non-GAAP)
+SUMMARY:GBX Earnings
+UID:bec48d8f-fe8a-420a-927b-bcee9d2c83a0@bec4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251223
+DESCRIPTION:Ticker: VSME\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:VSME Earnings
+UID:616962f5-b217-427a-a02e-f10e8bc6aa3d@6169.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: KBH\nFiscal Qtr: 4\nEstimate EPS: 1.7029\nEst. Revenue: 1.67 B\nSource: Finnhub (non-GAAP)
+SUMMARY:KBH Earnings
+UID:89a0f285-29b8-4d03-aab3-e2b81a060d99@89a0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: C\nFiscal Qtr: 4\nEstimate EPS: 1.8128\nEst. Revenue: 21.31 B\nSource: Finnhub (non-GAAP)
+SUMMARY:C Earnings
+UID:215b4301-9230-4348-9e37-d4086a8aab87@215b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: PXED\nFiscal Qtr: 1\nEstimate EPS: 1.3041\nEst. Revenue: 263 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PXED Earnings
+UID:e5e493ba-8ac2-4a18-9b1b-96248d32d380@e5e4.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: SBUX\nFiscal Qtr: 1\nEstimate EPS: 0.6032\nEst. Revenue: 9.82 B\nSource: Finnhub (non-GAAP)
+SUMMARY:SBUX Earnings
+UID:7c94d5c1-5ee8-4cdb-b930-13c2332f8af0@7c94.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: NBBK\nFiscal Qtr: 4\nEstimate EPS: 0.459\nEst. Revenue: 77 M\nSource: Finnhub (non-GAAP)
+SUMMARY:NBBK Earnings
+UID:97388d0f-c383-4d96-bfce-9da3223a2dba@9738.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: HIHO\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:HIHO Earnings
+UID:5b377779-5815-420f-867a-99bb49481cf7@5b37.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260110
+DESCRIPTION:Ticker: JEQ\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:JEQ Earnings
+UID:d3607838-5fda-4e94-9c7b-e33cb4bf5551@d360.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: CSQ\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CSQ Earnings
+UID:43e0cbb2-50a6-4f31-a50f-d1dbfa1ef1e2@43e0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: WTFC\nFiscal Qtr: 4\nEstimate EPS: 2.9673\nEst. Revenue: 713 M\nSource: Finnhub (non-GAAP)
+SUMMARY:WTFC Earnings
+UID:d9d0994b-4ac1-46ee-9283-b3c2e4587db0@d9d0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: QMMM\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:QMMM Earnings
+UID:356696a5-899f-4dc1-8b23-136e42a49aea@3566.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: MARK\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:MARK Earnings
+UID:fce9c2fc-f486-4746-85bf-64890facc7b1@fce9.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
+DESCRIPTION:Ticker: EACO\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EACO Earnings
+UID:8a35b9fa-9375-4369-9035-69b4269f259a@8a35.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: DIT\nFiscal Qtr: 1\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:DIT Earnings
+UID:06ca9915-0022-438f-9089-b626a89222e5@06ca.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: KARO\nFiscal Qtr: 3\nEstimate EPS: 7.9869\nEst. Revenue: 1.40 B\nSource: Finnhub (non-GAAP)
+SUMMARY:KARO Earnings
+UID:9eebaf6c-907a-4f48-98ce-840cafca8292@9eeb.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260119
+DESCRIPTION:Ticker: SVIN\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:SVIN Earnings
+UID:53f89779-78c1-4fa1-ab9a-bcb366625dc2@53f8.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: CRSB\nFiscal Qtr: 4\nEstimate EPS: 1.2974\nEst. Revenue: 28 M\nSource: Finnhub (non-GAAP)
+SUMMARY:CRSB Earnings
+UID:d618bee4-c462-447d-9577-7935d7186db0@d618.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: ADN\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:ADN Earnings
+UID:b76d1a2d-c6bc-4389-815a-ac7da680fdac@b76d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251231
+DESCRIPTION:Ticker: NYMXF\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NYMXF Earnings
+UID:b35de7b5-cf68-4ea6-9f58-14d91d691524@b35d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: GAMI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:GAMI Earnings
+UID:35212799-f0a2-4665-b8a5-df100cf9fa51@3521.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: IPAR\nFiscal Qtr: 4\nEstimate EPS: 0.8293\nEst. Revenue: 379 M\nSource: Finnhub (non-GAAP)
+SUMMARY:IPAR Earnings
+UID:f2514d72-71f7-470d-8c9d-10d238800089@f251.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260115
+DESCRIPTION:Ticker: GS\nFiscal Qtr: 4\nEstimate EPS: 11.9003\nEst. Revenue: 14.78 B\nSource: Finnhub (non-GAAP)
+SUMMARY:GS Earnings
+UID:5f6f505b-ce9d-4672-9aa0-c4cc37d81f29@5f6f.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260120
+DESCRIPTION:Ticker: NIC\nFiscal Qtr: 4\nEstimate EPS: 2.5597\nEst. Revenue: 79 M\nSource: Finnhub (non-GAAP)
+SUMMARY:NIC Earnings
+UID:809915e4-a33b-4eef-a015-a57b7b287960@8099.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251229
+DESCRIPTION:Ticker: MWG\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:MWG Earnings
+UID:93324bd6-832e-4081-a67c-78b6223af3d2@9332.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: CMC\nFiscal Qtr: 1\nEstimate EPS: 1.5835\nEst. Revenue: 2.08 B\nSource: Finnhub (non-GAAP)
+SUMMARY:CMC Earnings
+UID:887b5111-7e6e-44ce-8a24-6d4073ccd155@887b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: NRIS\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:NRIS Earnings
+UID:f0dce7d5-e14a-4331-b4bc-de613d745278@f0dc.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: CYDY\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:CYDY Earnings
+UID:640b60a0-c10f-48ea-a7c9-02240bf16a59@640b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251230
+DESCRIPTION:Ticker: AOREF\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:AOREF Earnings
+UID:4fa09f9c-2dd4-4579-b306-7b1f954dc31e@4fa0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: PMO\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:PMO Earnings
+UID:dd632448-a3d7-4b70-9d65-23eb0b6d9ea8@dd63.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260106
+DESCRIPTION:Ticker: PENG\nFiscal Qtr: 1\nEstimate EPS: 0.4451\nEst. Revenue: 346 M\nSource: Finnhub (non-GAAP)
+SUMMARY:PENG Earnings
+UID:a4bdd06a-0b7f-48bd-9806-4c53bb7369d5@a4bd.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260113
+DESCRIPTION:Ticker: REGX\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:REGX Earnings
+UID:28d19890-b0f6-4d9a-81b0-8c8e1b468eb5@28d1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251226
+DESCRIPTION:Ticker: FWDI\nFiscal Qtr: 4\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:FWDI Earnings
+UID:18c5bef3-148c-45e9-af59-1d36dc91b24b@18c5.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260101
+DESCRIPTION:Ticker: EAD\nFiscal Qtr: 2\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:EAD Earnings
+UID:ee9035c9-49e3-49bc-941a-a496d8643624@ee90.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260112
+DESCRIPTION:Ticker: FNGR\nFiscal Qtr: 3\nEstimate EPS: None\nEst. Revenue: -\nSource: Finnhub (non-GAAP)
+SUMMARY:FNGR Earnings
+UID:53757539-cc2f-44d0-86c4-dea7376a534d@5375.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260108
+DESCRIPTION:Ticker: BBCP\nFiscal Qtr: 4\nEstimate EPS: 0.0911\nEst. Revenue: 105 M\nSource: Finnhub (non-GAAP)
+SUMMARY:BBCP Earnings
+UID:5d3b38c7-d9e3-4f8a-beaa-3928d4aee2d3@5d3b.org
 END:VEVENT
 END:VCALENDAR
