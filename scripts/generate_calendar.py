@@ -14,11 +14,9 @@ Prerequisites:
 
 import os
 import sys
-from datetime import date, timedelta, datetime
+from datetime import date, timedelta, datetime, timezone
 
 import requests
-from dateutil import tz
-from ics import Calendar, Event
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Config
@@ -30,7 +28,6 @@ LOOKAHEAD_DAYS  = 15                          # upcoming earnings window
 TODAY = date.today()
 FROM = (TODAY - timedelta(days=LOOKBEHIND_DAYS)).isoformat()
 TO   = (TODAY + timedelta(days=LOOKAHEAD_DAYS)).isoformat()
-TZ_NY = tz.gettz("America/New_York")
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Helpers
@@ -47,9 +44,9 @@ def fmt_number(num):
     except (ValueError, TypeError):
         return "-"
     if n >= 1_000_000_000:
-        return f"{n / 1_000_000_000:.2f}\u202fB"   # narrow-space
+        return f"{n / 1_000_000_000:.2f} B"
     if n >= 1_000_000:
-        return f"{n / 1_000_000:.0f}\u202fM"
+        return f"{n / 1_000_000:.0f} M"
     return f"{n:.0f}"
 
 
@@ -63,38 +60,91 @@ def fetch_earnings() -> list[dict]:
     return resp.json().get("earningsCalendar", [])
 
 
-def to_event(item: dict) -> Event:
-    """Convert one Finnhub record to an ics Event."""
-    ev = Event()
-    ev.name = f"{item['symbol']} Earnings"
-    ev.begin = datetime.combine(
-        datetime.fromisoformat(item["date"]).date(),
-        datetime.min.time(),
-        TZ_NY,
+def escape_ics_text(value: str) -> str:
+    """Escape text according to RFC5545."""
+    return (
+        value.replace("\\", "\\\\")
+        .replace(";", r"\;")
+        .replace(",", r"\,")
+        .replace("\n", r"\n")
     )
-    ev.make_all_day()
 
-    lines = [
-        f"Ticker: {item['symbol']}",
-        f"Fiscal Qtr: {item.get('quarter', '-')}",
-        f"Estimate EPS: {item.get('epsEstimate', '-')}",
-        f"Est. Revenue: {fmt_number(item.get('revenueEstimate'))}",
-        "Source: Finnhub (non-GAAP)",
+
+def fold_ics_line(line: str, width: int = 75) -> list[str]:
+    """Fold long iCalendar lines (continuation starts with one space)."""
+    if len(line) <= width:
+        return [line]
+    folded = [line[:width]]
+    rest = line[width:]
+    while rest:
+        folded.append(f" {rest[: width - 1]}")
+        rest = rest[width - 1 :]
+    return folded
+
+
+def to_event_lines(item: dict, dtstamp: str) -> list[str]:
+    """Convert one Finnhub record into RFC5545 VEVENT lines."""
+    symbol = item.get("symbol", "UNKNOWN")
+    event_date = datetime.fromisoformat(item["date"]).date()
+    end_date = event_date + timedelta(days=1)  # all-day events use exclusive end
+    uid = f"{symbol}-{event_date.isoformat()}@earning-calendar-ics"
+
+    description = "\n".join(
+        [
+            f"Ticker: {symbol}",
+            f"Fiscal Qtr: {item.get('quarter', '-')}",
+            f"Estimate EPS: {item.get('epsEstimate', '-')}",
+            f"Est. Revenue: {fmt_number(item.get('revenueEstimate'))}",
+            "Source: Finnhub (non-GAAP)",
+        ]
+    )
+
+    return [
+        "BEGIN:VEVENT",
+        f"UID:{escape_ics_text(uid)}",
+        f"DTSTAMP:{dtstamp}",
+        f"DTSTART;VALUE=DATE:{event_date.strftime('%Y%m%d')}",
+        f"DTEND;VALUE=DATE:{end_date.strftime('%Y%m%d')}",
+        f"SUMMARY:{escape_ics_text(f'{symbol} Earnings')}",
+        f"DESCRIPTION:{escape_ics_text(description)}",
+        "END:VEVENT",
     ]
-    ev.description = "\n".join(lines)
-    return ev
+
+
+def build_calendar(records: list[dict]) -> str:
+    """Build a full iCalendar payload with all records."""
+    dtstamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//earning-calendar-ics//EN",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        "X-WR-CALNAME:Earnings Calendar",
+    ]
+
+    for rec in sorted(records, key=lambda r: (r.get("date", ""), r.get("symbol", ""))):
+        if not rec.get("date"):
+            continue
+        lines.extend(to_event_lines(rec, dtstamp))
+
+    lines.append("END:VCALENDAR")
+
+    folded_lines: list[str] = []
+    for line in lines:
+        folded_lines.extend(fold_ics_line(line))
+
+    return "\r\n".join(folded_lines) + "\r\n"
 
 
 # ────────────────────────────────────────────────────────────────────────────────
 def main() -> None:
-    cal = Calendar()
-    for rec in fetch_earnings():
-        cal.events.add(to_event(rec))
+    records = fetch_earnings()
 
     out_path = "earnings_calendar.ics"
     with open(out_path, "w", encoding="utf-8") as f:
-        f.writelines(cal)
-    print(f"✅  Calendar refreshed → {out_path}")
+        f.write(build_calendar(records))
+    print(f"✅  Calendar refreshed ({len(records)} events) → {out_path}")
 
 
 if __name__ == "__main__":
