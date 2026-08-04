@@ -14,6 +14,7 @@ Prerequisites:
 
 import os
 import sys
+import time
 from datetime import date, timedelta, datetime, timezone
 
 import requests
@@ -24,6 +25,8 @@ API = "https://finnhub.io/api/v1/calendar/earnings"
 TOKEN = os.getenv("FINNHUB_TOKEN")
 LOOKBEHIND_DAYS = 15                          # past earnings window
 LOOKAHEAD_DAYS  = 15                          # upcoming earnings window
+MAX_REQUEST_ATTEMPTS = 3
+RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
 
 TODAY = date.today()
 FROM = (TODAY - timedelta(days=LOOKBEHIND_DAYS)).isoformat()
@@ -55,9 +58,26 @@ def fetch_earnings() -> list[dict]:
     if not TOKEN:
         raise RuntimeError("FINNHUB_TOKEN env-var is missing.")
     params = {"from": FROM, "to": TO, "token": TOKEN}
-    resp = requests.get(API, params=params, timeout=30)
-    resp.raise_for_status()
-    return resp.json().get("earningsCalendar", [])
+    for attempt in range(1, MAX_REQUEST_ATTEMPTS + 1):
+        try:
+            resp = requests.get(API, params=params, timeout=30)
+            resp.raise_for_status()
+            return resp.json().get("earningsCalendar", [])
+        except requests.exceptions.RequestException as exc:
+            status_code = exc.response.status_code if exc.response is not None else None
+            retryable = isinstance(
+                exc,
+                (requests.exceptions.Timeout, requests.exceptions.ConnectionError),
+            ) or status_code in RETRYABLE_STATUS_CODES
+            if not retryable or attempt == MAX_REQUEST_ATTEMPTS:
+                raise
+
+            delay = 2 ** (attempt - 1)
+            reason = f"HTTP {status_code}" if status_code else type(exc).__name__
+            print(f"⚠️  Finnhub request failed ({reason}); retrying in {delay}s...")
+            time.sleep(delay)
+
+    raise RuntimeError("Finnhub request retry loop exited unexpectedly.")
 
 
 def escape_ics_text(value: str) -> str:
